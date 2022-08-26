@@ -1,0 +1,5 @@
+# MONAN - Assimilação de Dados
+
+A assimilação de dados é o processo através do qual são determinadas as condições iniciais dos modelos numéricos. No contexto do MONAN, onde várias componentes devem ser consideradas (e.g., atmosfera, oceano, superfície terrestre), os desafios associados a esse processo são grandes. As diferentes componentes do sistema terrestre - a ser representado pelo MONAN, possuem diferentes escalas de tempo e a interação entre elas para a determinação das condições iniciais é um fator limitante. Além disso, a diversidade de observações convencionais e não convencionais, com diferentes níveis de processamento (ou mesmo a falta de observações sobre uma determinada componente) e a sua combinação com os dados modelados em ponto de grade, contribuem para a melhor representação do estado inicial da componente, mas aumentam a complexidade e o custo computacional associado ao processo de assimilação.
+
+Repositório para os desenvolvimentos relacionados com a assimilação de dados no modelo MONAN.
