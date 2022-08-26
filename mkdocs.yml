@@ -1,0 +1,51 @@
+# Project information
+site_name: Grupo de Desenvolvimento em Assimilação de Dados para o MONAN 
+site_author: Carlos Frederico Bastarz
+site_description: Site com as Atas das Reuniões do Grupo de Desenvolvimento em Assimilação de Dados para o MONAN 
+
+# Repository
+repo_name: monanadmin/monan_ad
+repo_url: https://github.com/monanadmin/monan_ad
+edit_uri: edit/master/docs/
+
+# Page tree
+nav:
+  - Atas 2022:
+    - '25 de Agosto de 2022': ata_ad_25_agosto_2022.md
+
+# Configuration
+theme: 
+  name: material
+  language: pt-BR
+  palette:
+    primary: blue
+    accent: blue
+
+extra:
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/monanadmin/monan_ad
+      - icon: fontawesome/solid/paper-plane
+        link: mailto:luiz.sapucci@inpe.br
+
+# Extensions
+markdown_extensions:
+  - footnotes
+  - tables
+  - admonition
+  - abbr
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# Plugins
+plugins:
+  - mkdocs-video
+  - search
