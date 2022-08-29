@@ -89,3 +89,4 @@ Sapucci faz uma rápida apresentação sobre o cronograma inicial do workshop da
 
     * [Slides Sérgio Henrique](https://drive.google.com/file/d/128spvtgMrYscPtXdR1rFzfoRPHc1mtx-/view?usp)
     * [Slides Eduardo Barbosa](https://drive.google.com/file/d/1akVdQh_r8edNxE8W8QfED2C0ZbmOcwV6/view?usp)
+    * [Slides Haroldo Campos Velho](https://drive.google.com/file/d/1-lEwRxFiefP413xgmAhVcH3ZDxjWL5dJ/view?usp)
