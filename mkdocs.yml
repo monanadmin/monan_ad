@@ -12,6 +12,8 @@ edit_uri: edit/master/docs/
 nav:
   - Atas 2022:
     - '25 de Agosto de 2022': ata_ad_25_agosto_2022.md
+    - '29 de Setembro de 2022': ata_ad_29_setembro_2022.md
+  - Recursos: recursos.md
 
 # Configuration
 theme: 
