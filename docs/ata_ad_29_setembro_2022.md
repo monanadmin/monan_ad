@@ -56,7 +56,7 @@ Luiz Sapucci agradece as contribuições do Kleber Naccarato. Comenta que a inte
 
 ## Pauta 2 - Status da assimilação no MONAN
 
-Luiz Sapucci cita que, em relação ao status da assimilação para o MONAN, a primeira tarefa é colocar o modelo _Brazilian Atmospheric Model_ ([BAM](https://journals.ametsoc.org/view/journals/wefo/31/5/waf-d-16-0062_1.xml)) e o sistema _Gridpoint Statistical Interpolation_ ([GSI](https://dtcenter.org/community-code/gridpoint-statistical-interpolation-gsi)) operacionais no CPTEC e, a segunda, é a organização das versões do MONAN com a assimilação, de qual será a sequência de desenvolvimentos entre a versão a ser operacionalizada da assimilação de dados do CPTEC (i.e., o Sistema de Modelagem Numérica e Assimilação ([SNMA](http://mtc-m21c.sid.inpe.br/ibi/sid.inpe.br/mtc-m21c/2019/05.16.15.18?metadatarepository=sid.inpe.br/mtc-m21c/2019/05.16.15.18.01&ibiurl.backgroundlanguage=pt-BR&ibiurl.requiredsite=mtc-m21c.sid.inpe.br+806&requiredmirror=urlib.net/www/2017/11.22.19.04.03&searchsite=bibdigital.sid.inpe.br:80&searchmirror=sid.inpe.br/bibdigital@80/2006/04.07.15.50.13&searchinputvalue=sistema+de+modelagem+num%E9rica+e+assimila%E7%E3o&parentidentifiercitedby=6qtX3pFwXQZ4iE8KMKjdY/KFQ6T&forcerecentflag=0)), composto pelo BAM e GSI) e a primeira versão de assimilação de dados do MONAN (possivelmente com o sistema _Joint Effort for Data Assimilation Integration_ - [JEDI](https://www.jcsda.org/jcsda-project-jedi)). A terceira ação, é a validação do experimento 18 da assimilação de dados (i.e., um dos últimos experimentos realizados pelo grupo de assimilação de dados do CPTEC, envolvendo a suíte SMNA), como avaliação diagnóstica. Estes são os 3 pontos a serem tratados pelo grupo de assimilação de dados para o próximo mês.
+Luiz Sapucci cita que, em relação ao status da assimilação para o MONAN, a primeira tarefa é colocar o modelo _Brazilian Atmospheric Model_ ([BAM](https://journals.ametsoc.org/view/journals/wefo/31/5/waf-d-16-0062_1.xml)) e o sistema _Gridpoint Statistical Interpolation_ ([GSI](https://dtcenter.org/community-code/gridpoint-statistical-interpolation-gsi)) operacionais no CPTEC e, a segunda, é a atualização do RoadMap das versões do MONAN com a assimilação, de qual será a sequência de desenvolvimentos entre a versão a ser operacionalizada da assimilação de dados do CPTEC (i.e., o Sistema de Modelagem Numérica e Assimilação ([SNMA](http://mtc-m21c.sid.inpe.br/ibi/sid.inpe.br/mtc-m21c/2019/05.16.15.18?metadatarepository=sid.inpe.br/mtc-m21c/2019/05.16.15.18.01&ibiurl.backgroundlanguage=pt-BR&ibiurl.requiredsite=mtc-m21c.sid.inpe.br+806&requiredmirror=urlib.net/www/2017/11.22.19.04.03&searchsite=bibdigital.sid.inpe.br:80&searchmirror=sid.inpe.br/bibdigital@80/2006/04.07.15.50.13&searchinputvalue=sistema+de+modelagem+num%E9rica+e+assimila%E7%E3o&parentidentifiercitedby=6qtX3pFwXQZ4iE8KMKjdY/KFQ6T&forcerecentflag=0)), composto pelo BAM e GSI) e a primeira versão de assimilação de dados do MONAN). A terceira ação, é a validação do experimento 18 da assimilação de dados (i.e., um dos últimos experimentos realizados pelo grupo de assimilação de dados do CPTEC, envolvendo a suíte SMNA), como avaliação diagnóstica. Estes são os 3 pontos a serem tratados pelo grupo de assimilação de dados para o próximo mês.
 
 ## Pauta 3 - Atividades de pré-processamento
 
@@ -64,7 +64,7 @@ Seguindo a pauta, Luiz Sapucci comenta que o Eduardo Barbosa deverá relatar as 
 
 Eduardo Barbosa cita, dentre as atividades realizadas, a configuração dos novos receptores de dados, a migração da recepção de dados de radar para serem recebidos pela Divisão de Tempo e Clima ([DIPTC](https://www.gov.br/inpe/pt-br/composicao/diretoria/coordenacao-geral-de-ciencias-da-terra-cgct)) e algumas manutenções de scripts de triagem para a separação de dados. Cita que foram detectadas algumas inconsistências e que estas estão sendo tratadas. 
 
-Luiz Sapucci agrade as contribuições do Eduardo Barbosa e comenta que no workshop da assimilação de dados, a ser realizado na a próxima semana, será uma boa oportunidade de conversar sobre esse assunto. Comenta que é importante que os grupos possam dominar todos os processos envolvidos, frente a importância deles ao INPE e ao MONAN.
+Luiz Sapucci agradece as contribuições do Eduardo Barbosa e comenta que no workshop da assimilação de dados, a ser realizado na a próxima semana, será uma boa oportunidade de conversar sobre esse assunto. Comenta que é importante que os grupos possam dominar todos os processos envolvidos, frente a importância deles ao INPE e ao MONAN.
 
 ## Pauta 4 - Atividades de assimilação com métodos não-convencionais 
 
@@ -87,6 +87,24 @@ Luiz Sapucci, em relação à pauta do workshop da assimilação de dados a ser 
 ## Pauta 7 - Outros assuntos
 
 Outro item, é sobre a criação de um repositório para o armazenamento das apresentações do workshop (vide a seção de anexos). Luiz Sapucci comenta que é necessário criar uma lista dos apresentadores para que eles possam adicionar as suas apresentações e os demais para apenas visualização. Cita sobre o template das apresentações do workshop que está disponível para uso. Convida a todos para disponibilizarem as suas apresentações. Conclui dizendo que isso facilita a preparação dos documentos entre os participantes, de forma a evitar informações redundantes.
+
+## Ações para o próximo mês
+
+* #ação1 @Sapucci: Enviar por email o endereço do repositório para todos do DAS-MONAN contendo o template, o objetivo do repositório é que todos os apresentadores antecipadamente conhecam oqu os demais colegas vão apresentar.
+* #ação2 @Sapucci: enviar a programação atualizada do workshop, para todos do DAS-MONAN para permitir que convite outros de sua divisão ou coordenação que queira conhecer mais do assunto e do que fazemos.
+* #ação3 @Sapucci: Organizar junto a secretaria da DIMNT o procedimento adequado para a inclusão de cobaboradores do grupo DAS-MONAN. Nessa oportunidade iremos proceder a inclusão do Kleber P. Naccarato e Aurelienne Aparecida Souza Jorge do pré.
+* #ação4 @Eduardo: Enviar o template por email e colocar no repositorio das apresentações do workshop DAS-MONAN
+* #ação5 @João: Avançar com o Alex e demais membros do comitê de pré operação da assimilação e nos reportar os avanços na próxima reunião.
+* #ação6 @Carlos: Escrever a ata da reunião no GitHub do MONAN com a lista de ações para o próximo mês.
+* #ação7 @João;@Aravequia: Avançar com a versão do GSI no BAM-HIB na EGEON usando INTEL e GNU e reportar os andamento dessa atividade; 
+* #ação8 @Haroldo: Avançar com a Assimilação de dados usando redes neurais Global como o modelo do CPTEC e reportar o reportar os andamento dessa atividade; 
+* #ação9 @Eduardo: Avançar com a ampliação da triagem de novos dados para a assimilação e reportar os andamento dessa atividade; 
+* #ação8 @Haroldo: Avançar com a Assimilação de dados usando redes neurais Global como o modelo do CPTEC e reportar o reportar os andamento dessa atividade; 
+* #ação10 @Renato: Avançar na recepção/tratamento/avaliação de dados de satélites para a assimilação no BAM-HIB-GSI e reportar os andamento dessa atividade;
+* #ação11 @Sapucci: Tratar com o pessoal da marinha a possibilidade da Comandante Flavia e Tenente Brunna Romero participar da nossa próxima reunião e apresentarem seus trabalhos sobre o tema assimilação de dados;
+* #ação12 @Sapucci: Compilar os arranjos mais importantes obtidos nos resultados do Workshop e apresentar para discussão no grupo DAS-MONAN;
+* #ação13 @Sapucci: atualizar o RoadMAp da assimilação pré operacional com as novas versões e um novo cronograma de entrega para 2023;
+* #ação14 @Todos: Iniciar uma versão draft da avaliação diagnostica da assimilação de dados do sistema SMNA (BAM-HIB-GSI) experimento 18 para servir de relatório técnico da versão inicial pré operacional.  
 
 ??? example "Anexos"
 
