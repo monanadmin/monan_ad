@@ -13,7 +13,9 @@ nav:
   - Atas 2022:
     - '25 de Agosto de 2022': ata_ad_25_agosto_2022.md
     - '29 de Setembro de 2022': ata_ad_29_setembro_2022.md
+  - Membros: membros.md
   - Recursos: recursos.md
+  - Workshop 2022: ata_workshop_6_7_setembro_2022.md
 
 # Configuration
 theme: 
@@ -29,6 +31,9 @@ extra:
         link: https://github.com/monanadmin/monan_ad
       - icon: fontawesome/solid/paper-plane
         link: mailto:luiz.sapucci@inpe.br
+
+extra_css:
+  - stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
@@ -46,6 +51,10 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.tabbed:
       alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 # Plugins
 plugins:
