@@ -32,6 +32,6 @@
         * Plataforma Google Meet
         * 27 de Outubro de 2022, das 14:00 horas às 15:00 horas
         
-!!! Atenção
+!!! warning "Atenção"
 
     Ata não registrada.

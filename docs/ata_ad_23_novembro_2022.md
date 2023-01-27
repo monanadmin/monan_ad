@@ -39,7 +39,7 @@
         * Plataforma Google Meet
         * 23 de Novembro de 2022, das 15:30 horas às 17:00 horas
         
-!!! Atenção
+!!! warning "Atenção"
 
     Reunião registrada apenas em video.
 
