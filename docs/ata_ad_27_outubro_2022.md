@@ -15,7 +15,7 @@
     
         | REVISÃO | DATA DA REVISÃO | ALTERAÇÕES |
         |---------|-----------------|------------|
-        |         |                 |            | 
+        | R000    | 27/11/2022      | <ul> <li> Versão inicial </ul> </li> | 
     
     === "Participações"
     
@@ -32,6 +32,6 @@
         * Plataforma Google Meet
         * 27 de Outubro de 2022, das 14:00 horas às 15:00 horas
         
-!!! Warning
+!!! Atenção
 
-    Em construção.
+    Ata não registrada.

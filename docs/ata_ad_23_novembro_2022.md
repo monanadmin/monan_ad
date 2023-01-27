@@ -15,11 +15,22 @@
     
         | REVISÃO | DATA DA REVISÃO | ALTERAÇÕES |
         |---------|-----------------|------------|
-        |         |                 |            | 
+        | R000    | 23/11/2022      | <ul> <li> Versão inicial </li> </ul> | 
     
     === "Participações"
     
-        * **INPE:** 
+        * **INPE:**
+          * Carlos Frederico Bastarz
+          * Kleber Naccarato
+          * Éder Paulo Vendrasco
+          * João Gerd Zell de Mattos
+          * José Antônio Aravéquia
+          * Luciana Mira
+          * Luiz Fernando Sapucci
+          * Liviany Viana
+          * Natália Ruddorf 
+          * Renato Galante Negri
+          * Sérgio Henrique Ferreira
 
     === "Registro"
     
@@ -28,8 +39,8 @@
         * Plataforma Google Meet
         * 23 de Novembro de 2022, das 15:30 horas às 17:00 horas
         
-!!! Warning
+!!! Atenção
 
-    Em construção.
+    Reunião registrada apenas em video.
 
 ![type:video](https://youtube.com/embed/ZqeSWT_YNIo)
