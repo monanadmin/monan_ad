@@ -1,6 +1,6 @@
 # 07 de Novembro de 2022
 
-## ATA 001/2022 - Revisão 000
+## ATA 001/2022 - Revisão 001
 
 ??? info "Informações"
 
@@ -16,6 +16,7 @@
         | REVISÃO | DATA DA REVISÃO | ALTERAÇÕES |
         |---------|-----------------|------------|
         | R000    | 07/11/2022      | <ul> <li> Versão inicial </li> </ul> |
+        | R001    | 31/01/2023      | <ul> <li> Pequenos ajustes de normalização </li> </ul> |
     
     === "Participações"
     
@@ -60,11 +61,11 @@ Clemente destacou que podemos pensar em submeter uma proposta de pesquisa na FAP
 
 ## Lista de ações
 
-* João: Verificar com o Saulo como documentar apropriadamente essa atividade usando o plano de trabalho já elaborado;
-* Carlos: Criar um repositório no GitHub do MONAN para esse projeto e colocar lá essa memória dessa primeira reunião;
-* Felipe: Fazer um levantamento do espaço em disco necessário para o RODAS na Egeon;
-* João: verificar a possibilidade de mais uma conta para a aluna do Clemente ter acesso a Egeon;
-* Felipe e João: Iniciar a instalação do RODAS na Egeon e interagir com o João para avançar nesse processo de forma eficiente.
+* **João Gerd:** Verificar com o Saulo como documentar apropriadamente essa atividade usando o plano de trabalho já elaborado;
+* **Carlos Bastarz:** Criar um repositório no GitHub do MONAN para esse projeto e colocar lá essa memória dessa primeira reunião;
+* **Felipe Costa:** Fazer um levantamento do espaço em disco necessário para o RODAS na Egeon;
+* **João Gerd:** verificar a possibilidade de mais uma conta para a aluna do Clemente ter acesso a Egeon;
+* **Felipe Costa e João Gerd:** Iniciar a instalação do RODAS na Egeon e interagir com o João para avançar nesse processo de forma eficiente.
 
 ## Comentários adicionais
 

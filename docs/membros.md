@@ -23,6 +23,7 @@ Membros do Grupo de Desenvolvimento em Assimilação de Dados para o MONAN.
 
 * **Universidade Federal da Bahia (UFBA):** 
     * Clemente Augusto Souza Tanajura ([lattes](http://lattes.cnpq.br/0765423133125301))
+    * Felipe Bittencourt Costa ([lattes](http://lattes.cnpq.br/5110599960453359))
 
 * **Universidade Federal de Pelotas (UFPel):** 
     * Fabrício Pereira Härter ([lattes](http://lattes.cnpq.br/9865056179221557))

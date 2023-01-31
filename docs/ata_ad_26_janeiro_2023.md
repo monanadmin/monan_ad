@@ -1,6 +1,6 @@
 # 26 de Janeiro de 2023
 
-## ATA 001/2023 - Revisão 000
+## ATA 001/2023 - Revisão 001
 
 ??? info "Informações"
 
@@ -16,6 +16,7 @@
         | REVISÃO | DATA DA REVISÃO | ALTERAÇÕES |
         |---------|-----------------|------------|
         | R000    | 27/01/2023      | <ul> <li> Versão inicial </ul> </li> | 
+        | R001    | 31/01/2023      | <ul> <li> Pequenos ajustes de normalização </ul> </li> | 
     
     === "Participações"
     
@@ -43,19 +44,15 @@
         * Plataforma Google Meet
         * 26 de Janeiro de 2023, das 15:30 horas às 17:00 horas
         
-!!! warning "Atenção"
-
-    Ata em revisão.
-
 ![type:video](https://youtube.com/embed/dXW9ji1ub1o)
 
 ## Introdução
 
-Luiz Sapucci inicia a reunião desejando a todos um bom início de ano. Anuncia a inclusão de dois novos membros da assimilação oceânica, [Felipe Costa](http://lattes.cnpq.br/5110599960453359) e [Clemente Tanajura](http://lattes.cnpq.br/0765423133125301), ambos pesquisadores da Universidade Federal da Bahia ([UFBA](https://www.ufba.br/)). Aproveita a oportunidade para apresentar para os novos membros como o grupo de trabalho está organizado, com a participação de membros de outras divisões dentro do INPE. Comenta que as atas são registradas e algumas reuniões são gravadas. O grupo discute os desenvolimentos pertinentes à assimilação de dados, com foco para os desenvolvimentos do MONAN. 
+Luiz Sapucci inicia a reunião desejando a todos um bom início de ano. Anuncia a inclusão de dois novos membros da assimilação oceânica, [Felipe Bittencourt Costa](http://lattes.cnpq.br/5110599960453359) e [Clemente Augusto Souza Tanajura](http://lattes.cnpq.br/0765423133125301), ambos pesquisadores da Universidade Federal da Bahia ([UFBA](https://www.ufba.br/)). Aproveita a oportunidade para apresentar para os novos membros como o grupo de trabalho está organizado, com a participação de membros de outras divisões dentro do INPE. Comenta que as atas são registradas e algumas reuniões são gravadas. O grupo discute os desenvolimentos pertinentes à assimilação de dados, com foco para os desenvolvimentos do MONAN. 
 
 Clemente Tananjura agradece a oportunidade de participação nas atividades do grupo, comenta sobre a importância da colaboração com INPE, tendo em vista o tamanho do seu grupo na UFBA. Comenta que o grupo dele tem trabalhado com métodos como Interpolação Ótima ([_Optimun Interpolation_ - OI](https://glossary.ametsoc.org/wiki/Optimum_interpolation#:~:text=Commonly%20known%20as%20OI%2C%20this,by%20a%20NWP%20model%20forecast.)), _Ensemble OI_ ([EnOI](http://www.cmar.csiro.au/staff/oke/pubs/Oke_et_al_2010_EnOI.pdf)) e que o objetivo é trabalhar com o _Enssemble Kalman Filter_ ([EnKF](https://en.wikipedia.org/wiki/Ensemble_Kalman_filter)) para a assimilação de dados oceânicos e que a colaboração com INPE deve viabilizar essa atividade. Comenta também que o grupo já possui acesso à máquina [Egeon](https://en.wikipedia.org/wiki/Ensemble_Kalman_filter) do CPTEC e que as atividades iniciais de desenvolvimento no novo ambiente já estão em curso. Luiz Sapucci complementa dizendo que o ambiente do grupo é propício para a troca de ideias, informações e também para a resolução de problemas práticos relacionados com os trabalhos em desenvolvimento.
 
-## Pauta da Reunião
+## Pauta 
 
 Sobre a pauta reunião, Luiz Sapucci cita os seguintes itens: 
 
@@ -117,16 +114,16 @@ Haroldo Fraga inicia a sua fala comentando sobre o avanço da habilidade de prev
 
 Devido ao tempo limite da chamada do Google Meet, a reunião foi encerrada automaticamente. Com isso, deverá ser marcada uma nova reunião para que o Haroldo Fraga possa dar as suas contribuições sobre o assunto.  
 
-## Ações para a próxima reunião
+## Lista de ações 
 
-1. DAS-DIMNT: reiniciar as reuniões semanais do DAS-DIMNT e tratar dos pontos destacados e discutidos no inicio da reunião e reportar na próxima reunião mensal do DAS-INPE;
-1. Luiz Sapucci: incluir o Felipe Costa na reunião semanal do DAS-DIMNT;
-1. Luiz Sapucci: enviar para todos a versão do roadmap da assimilação atmosférica em 2023 para colher contribuições e posteriormente enviar para a chefia da DIMNT;
-1. João Gerd e Clemente Tanajura: preparar um roadmap da assimilação de superfície para 2023 e enviar para a apreciação de todos;
-1. Grupo DAS-INPE e Luiz Sapucci: dar andamento ao relatório da versão SMNA 2.3.1, com expectativa de se ter uma versão 80% finalizada no final de fevereiro;
-1. Eduardo Barbosa, Sergio Ferreira e João Gerd: reiniciar as conversas visando a elaboração de um plano de trabalho para a implementação do controle de qualidade dos dados recebidos no CPTEC;
-1. Luiz Sapucci e Grupo DAS-DISSM: retomar o documento sobre o macrogrupo de dados de satélites para a assimilação e encaminhar para aprovação;
-1. Felipe Costa e Clemente Tanajura: avançar com a implementação na Egeon da assimilação oceânica usando o RODAS e reportar o status na próxima reunião;
-1. Felipe Costa, Clemente Tanajura e Eduardo Barbosa: iniciar as conversas sobre o fluxo de dados requeridos pelo RODAS a ser avaliado a disponibilidade no pré-processamento do CPTEC e tratar de sua adequação;
-1. Haroldo Fraga e Luiz Sapucci: marcar uma reunião especifica para tratar da assimilação global usando redes neurais para divulgar o andamento dos trabalhos nesse grupo;
-1. Carlos Bastarz e Luiz Sapucci: preparar a memória dessa reunião e disponibilizá-la no git do DAS-MONAN.
+1. **DAS-DIMNT:** reiniciar as reuniões semanais do DAS-DIMNT e tratar dos pontos destacados e discutidos no inicio da reunião e reportar na próxima reunião mensal do DAS-INPE;
+1. **Luiz Sapucci:** incluir o Felipe Costa na reunião semanal do DAS-DIMNT;
+1. **Luiz Sapucci:** enviar para todos a versão do roadmap da assimilação atmosférica em 2023 para colher contribuições e posteriormente enviar para a chefia da DIMNT;
+1. **João Gerd e Clemente Tanajura:** preparar um roadmap da assimilação de superfície para 2023 e enviar para a apreciação de todos;
+1. **Grupo DAS-INPE e Luiz Sapucci:** dar andamento ao relatório da versão SMNA 2.3.1, com expectativa de se ter uma versão 80% finalizada no final de fevereiro;
+1. **Eduardo Barbosa, Sergio Ferreira e João Gerd:** reiniciar as conversas visando a elaboração de um plano de trabalho para a implementação do controle de qualidade dos dados recebidos no CPTEC;
+1. **Luiz Sapucci e Grupo DAS-DISSM:** retomar o documento sobre o macrogrupo de dados de satélites para a assimilação e encaminhar para aprovação;
+1. **Felipe Costa e Clemente Tanajura:** avançar com a implementação na Egeon da assimilação oceânica usando o RODAS e reportar o status na próxima reunião;
+1. **Felipe Costa, Clemente Tanajura e Eduardo Barbosa:** iniciar as conversas sobre o fluxo de dados requeridos pelo RODAS a ser avaliado a disponibilidade no pré-processamento do CPTEC e tratar de sua adequação;
+1. **Haroldo Fraga e Luiz Sapucci:** marcar uma reunião especifica para tratar da assimilação global usando redes neurais para divulgar o andamento dos trabalhos nesse grupo;
+1. **Carlos Bastarz e Luiz Sapucci:** preparar a memória dessa reunião e disponibilizá-la no git do DAS-MONAN.
