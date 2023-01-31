@@ -57,12 +57,12 @@ Clemente Tananjura agradece a oportunidade de participação nas atividades do g
 Sobre a pauta reunião, Luiz Sapucci cita os seguintes itens: 
 
 1. Aspectos técnicos da assimilação na DIMNT;
-1. Planejamento das atividades para 2023 e atualização dos planos de trabalho na DIMNT;
-1. Status do processo de operacionalização da assimilação de dados atmosféricos no CPTEC;
-1. Relatório dignóstico do SMNA V2.3.1 (pré-operacional);
-1. Macrogrupo de dados de satélite para modelagem;
-1. Status da implementação da assimilação de dados oceânica na Egeon;
-1. Assimilação de dados utilizando Inteligência Artificial.
+2. Planejamento das atividades para 2023 e atualização dos planos de trabalho na DIMNT;
+3. Status do processo de operacionalização da assimilação de dados atmosféricos no CPTEC;
+4. Relatório dignóstico do SMNA V2.3.1 (pré-operacional);
+5. Macrogrupo de dados de satélite para modelagem;
+6. Status da implementação da assimilação de dados oceânica na Egeon;
+7. Assimilação de dados utilizando Inteligência Artificial.
 
 ## Pauta 1 - Aspectos técnicos da assimilação de dados na DIMNT
 
@@ -114,16 +114,16 @@ Haroldo Fraga inicia a sua fala comentando sobre o avanço da habilidade de prev
 
 Devido ao tempo limite da chamada do Google Meet, a reunião foi encerrada automaticamente. Com isso, deverá ser marcada uma nova reunião para que o Haroldo Fraga possa dar as suas contribuições sobre o assunto.  
 
-## Lista de ações 
+## Ações Para a Próxima Reunião 
 
 1. **DAS-DIMNT:** reiniciar as reuniões semanais do DAS-DIMNT e tratar dos pontos destacados e discutidos no inicio da reunião e reportar na próxima reunião mensal do DAS-INPE;
-1. **Luiz Sapucci:** incluir o Felipe Costa na reunião semanal do DAS-DIMNT;
-1. **Luiz Sapucci:** enviar para todos a versão do roadmap da assimilação atmosférica em 2023 para colher contribuições e posteriormente enviar para a chefia da DIMNT;
-1. **João Gerd e Clemente Tanajura:** preparar um roadmap da assimilação de superfície para 2023 e enviar para a apreciação de todos;
-1. **Grupo DAS-INPE e Luiz Sapucci:** dar andamento ao relatório da versão SMNA 2.3.1, com expectativa de se ter uma versão 80% finalizada no final de fevereiro;
-1. **Eduardo Barbosa, Sergio Ferreira e João Gerd:** reiniciar as conversas visando a elaboração de um plano de trabalho para a implementação do controle de qualidade dos dados recebidos no CPTEC;
-1. **Luiz Sapucci e Grupo DAS-DISSM:** retomar o documento sobre o macrogrupo de dados de satélites para a assimilação e encaminhar para aprovação;
-1. **Felipe Costa e Clemente Tanajura:** avançar com a implementação na Egeon da assimilação oceânica usando o RODAS e reportar o status na próxima reunião;
-1. **Felipe Costa, Clemente Tanajura e Eduardo Barbosa:** iniciar as conversas sobre o fluxo de dados requeridos pelo RODAS a ser avaliado a disponibilidade no pré-processamento do CPTEC e tratar de sua adequação;
-1. **Haroldo Fraga e Luiz Sapucci:** marcar uma reunião especifica para tratar da assimilação global usando redes neurais para divulgar o andamento dos trabalhos nesse grupo;
-1. **Carlos Bastarz e Luiz Sapucci:** preparar a memória dessa reunião e disponibilizá-la no git do DAS-MONAN.
+2. **Luiz Sapucci:** incluir o Felipe Costa na reunião semanal do DAS-DIMNT;
+3. **Luiz Sapucci:** enviar para todos a versão do roadmap da assimilação atmosférica em 2023 para colher contribuições e posteriormente enviar para a chefia da DIMNT;
+4. **João Gerd e Clemente Tanajura:** preparar um roadmap da assimilação de superfície para 2023 e enviar para a apreciação de todos;
+5. **Grupo DAS-INPE e Luiz Sapucci:** dar andamento ao relatório da versão SMNA 2.3.1, com expectativa de se ter uma versão 80% finalizada no final de fevereiro;
+6. **Eduardo Barbosa, Sergio Ferreira e João Gerd:** reiniciar as conversas visando a elaboração de um plano de trabalho para a implementação do controle de qualidade dos dados recebidos no CPTEC;
+7. **Luiz Sapucci e Grupo DAS-DISSM:** retomar o documento sobre o macrogrupo de dados de satélites para a assimilação e encaminhar para aprovação;
+8. **Felipe Costa e Clemente Tanajura:** avançar com a implementação na Egeon da assimilação oceânica usando o RODAS e reportar o status na próxima reunião;
+9. **Felipe Costa, Clemente Tanajura e Eduardo Barbosa:** iniciar as conversas sobre o fluxo de dados requeridos pelo RODAS a ser avaliado a disponibilidade no pré-processamento do CPTEC e tratar de sua adequação;
+10. **Haroldo Fraga e Luiz Sapucci:** marcar uma reunião especifica para tratar da assimilação global usando redes neurais para divulgar o andamento dos trabalhos nesse grupo;
+11. **Carlos Bastarz e Luiz Sapucci:** preparar a memória dessa reunião e disponibilizá-la no git do DAS-MONAN.

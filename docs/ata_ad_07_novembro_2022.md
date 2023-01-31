@@ -59,7 +59,7 @@ De forma técnica algumas questões-chave foram levantadas e discutidas: (a) qua
 
 Clemente destacou que podemos pensar em submeter uma proposta de pesquisa na FAPESP para investir nessa pesquisa, com recursos para adquirir storage de dados, recursos para participação de eventos e organização de um wokshop. Sapucci concordou e precisamos conversar para identificar a dimensão do projeto, se ele pode ser pequeno envolvendo apenas a componente oceânica ou mais amplo envolvendo todas as componentes no MONAN. Isso teríamos que conversar para discutir essa dimensão.
 
-## Lista de ações
+## Ações Para a Próxima Reunião
 
 * **João Gerd:** Verificar com o Saulo como documentar apropriadamente essa atividade usando o plano de trabalho já elaborado;
 * **Carlos Bastarz:** Criar um repositório no GitHub do MONAN para esse projeto e colocar lá essa memória dessa primeira reunião;

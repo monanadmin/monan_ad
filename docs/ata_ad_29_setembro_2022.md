@@ -89,22 +89,22 @@ Luiz Sapucci, em relação à pauta do workshop da assimilação de dados a ser 
 
 Outro item, é sobre a criação de um repositório para o armazenamento das apresentações do workshop (vide a seção de anexos). Luiz Sapucci comenta que é necessário criar uma lista dos apresentadores para que eles possam adicionar as suas apresentações e os demais para apenas visualização. Cita sobre o template das apresentações do workshop que está disponível para uso. Convida a todos para disponibilizarem as suas apresentações. Conclui dizendo que isso facilita a preparação dos documentos entre os participantes, de forma a evitar informações redundantes.
 
-## Lista de ações
+## Ações Para a Próxima Reunião
 
 1. **Luiz Sapucci:** Enviar por email o endereço do repositório para todos do DAS-MONAN contendo o template, o objetivo do repositório é que todos os apresentadores antecipadamente conhecam o que os demais colegas vão apresentar.
-1. **Luiz Sapucci:** Organizar junto a secretaria da DIMNT o procedimento adequado para a inclusão de cobaboradores do grupo DAS-MONAN. Nessa oportunidade iremos proceder a inclusão do Kleber P. Naccarato e Aurelienne Aparecida Souza Jorge do pré.
-1. **Eduardo Barbosa:** Enviar o template por email e colocar no repositorio das apresentações do workshop DAS-MONAN
-1. **João Gerd:** Avançar com o Alex e demais membros do comitê de pré operação da assimilação e nos reportar os avanços na próxima reunião.
-1. **Carlos Bastarz:** Escrever a ata da reunião no GitHub do MONAN com a lista de ações para o próximo mês.
-1. **João Gerd e José Aravequia:** Avançar com a versão do GSI no BAM-HIB na EGEON usando INTEL e GNU e reportar os andamento dessa atividade; 
-1. **Haroldo Fraga:** Avançar com a Assimilação de dados usando redes neurais Global como o modelo do CPTEC e reportar o reportar os andamento dessa atividade; 
-1. **Eduardo Barbosa:** Avançar com a ampliação da triagem de novos dados para a assimilação e reportar os andamento dessa atividade; 
-1. **Renato Galante:** Avançar na recepção/tratamento/avaliação de dados de satélites para a assimilação no BAM-HIB-GSI e reportar os andamento dessa atividade;
-1. **Luiz Sapucci:** Tratar com o pessoal da marinha a possibilidade da Comandante Flavia e Tenente Brunna Romero participar da nossa próxima reunião e apresentarem seus trabalhos sobre o tema assimilação de dados;
-1. **Luiz Sapucci:** Compilar os arranjos mais importantes obtidos nos resultados do Workshop e apresentar para discussão no grupo DAS-MONAN;
-1. **Haroldo Fraga:** Avançar com a Assimilação de dados usando redes neurais Global como o modelo do CPTEC e reportar o reportar os andamento dessa atividade; 
-1. **Luiz Sapucci:** atualizar o RoadMAp da assimilação pré operacional com as novas versões e um novo cronograma de entrega para 2023;
-1. **Todos:** Iniciar uma versão draft da avaliação diagnostica da assimilação de dados do sistema SMNA (BAM-HIB-GSI) experimento 18 para servir de relatório técnico da versão inicial pré operacional.  
+2. **Luiz Sapucci:** Organizar junto a secretaria da DIMNT o procedimento adequado para a inclusão de cobaboradores do grupo DAS-MONAN. Nessa oportunidade iremos proceder a inclusão do Kleber P. Naccarato e Aurelienne Aparecida Souza Jorge do pré.
+3. **Eduardo Barbosa:** Enviar o template por email e colocar no repositorio das apresentações do workshop DAS-MONAN
+4. **João Gerd:** Avançar com o Alex e demais membros do comitê de pré operação da assimilação e nos reportar os avanços na próxima reunião.
+5. **Carlos Bastarz:** Escrever a ata da reunião no GitHub do MONAN com a lista de ações para o próximo mês.
+6. **João Gerd e José Aravequia:** Avançar com a versão do GSI no BAM-HIB na EGEON usando INTEL e GNU e reportar os andamento dessa atividade; 
+7. **Haroldo Fraga:** Avançar com a Assimilação de dados usando redes neurais Global como o modelo do CPTEC e reportar o reportar os andamento dessa atividade; 
+8. **Eduardo Barbosa:** Avançar com a ampliação da triagem de novos dados para a assimilação e reportar os andamento dessa atividade; 
+9. **Renato Galante:** Avançar na recepção/tratamento/avaliação de dados de satélites para a assimilação no BAM-HIB-GSI e reportar os andamento dessa atividade;
+10. **Luiz Sapucci:** Tratar com o pessoal da marinha a possibilidade da Comandante Flavia e Tenente Brunna Romero participar da nossa próxima reunião e apresentarem seus trabalhos sobre o tema assimilação de dados;
+11. **Luiz Sapucci:** Compilar os arranjos mais importantes obtidos nos resultados do Workshop e apresentar para discussão no grupo DAS-MONAN;
+12. **Haroldo Fraga:** Avançar com a Assimilação de dados usando redes neurais Global como o modelo do CPTEC e reportar o reportar os andamento dessa atividade; 
+13. **Luiz Sapucci:** atualizar o RoadMAp da assimilação pré operacional com as novas versões e um novo cronograma de entrega para 2023;
+14. **Todos:** Iniciar uma versão draft da avaliação diagnostica da assimilação de dados do sistema SMNA (BAM-HIB-GSI) experimento 18 para servir de relatório técnico da versão inicial pré operacional.  
 
 ??? example "Anexos"
 
