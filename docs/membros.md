@@ -4,7 +4,8 @@ Membros do Grupo de Desenvolvimento em Assimilação de Dados para o MONAN.
 
 * **Instituto Nacional de Pesquisas Espaciais (INPE):** 
     * Antonio Ocimar Manzi ([lattes](http://lattes.cnpq.br/0575383574431005))
-    * Carlos Frederico Bastarz ([lattes](http://lattes.cnpq.br/2410960909883784) | [github](https://github.com/cfbastarz))
+    * Aurelienne Aparecida Souza Jorge ([lattes](http://lattes.cnpq.br/4229146217472337))
+    * Carlos Frederico Bastarz ([lattes](http://lattes.cnpq.br/2410960909883784) | [github](https://github.com/cfbastarz)) | [webpage](https://cfbastarz.github.io)
     * Dirceu Luis Herdies ([lattes](http://lattes.cnpq.br/3752951275341381))
     * Éder Paulo Vendrasco ([lattes](http://lattes.cnpq.br/1368307471620569) | [github](https://github.com/edervendrasco))
     * Eduardo Batista de Moraes Barbosa ([lattes](http://lattes.cnpq.br/8920905542032636))
