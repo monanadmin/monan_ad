@@ -55,7 +55,7 @@ Sobre a pauta reunião, João Gerd cita os seguintes itens:
 4. O uso de machine learning na assimilação de dados para a resolução de problemas reais no contexto do INPE;
 5. Outros assuntos.
 
-## Pauta 1 - Preparação do roadmap da assimilação de superfície (continental e oceânica) em 2023;
+## Pauta 1 - Preparação do roadmap da assimilação de superfície (continental e oceânica) em 2023
 
 Devido à ausência dos membros Clemente Tanajura e Felipe Costa, João Gerd deixa a discussão desse item a pauta para a próxima reunião do grupo.
 
