@@ -1,6 +1,6 @@
 # 23 de Fevereiro de 2023
 
-## ATA 002/2023 - Revisão 001
+## ATA 002/2023 - Revisão 002
 
 ??? info "Informações"
 
@@ -17,6 +17,7 @@
         |---------|-----------------|------------|
         | R000    | 24/02/2023      | <ul> <li> Versão inicial </ul> </li> | 
         | R001    | 27/02/2023      | <ul> <li> Adicionada lista de artigos </li> <li> Revisão geral </li> </ul> | 
+        | R002    | 28/02/2023      | <ul> <li> Adicionado novo artigo </li> </ul> | 
     
     === "Participações"
     
@@ -83,6 +84,7 @@ Uma lista de artigos sugeridos para a aplicação de redes neurais na assimilaç
 * [A Neural-Network Based MPAS—Shallow Water Model and Its 4D-Var Data Assimilation System](https://www.mdpi.com/2073-4433/14/1/157)
 * [Statistical modelling of 2m temperature and 10m wind speed forecast errors](https://www.ecmwf.int/sites/default/files/elibrary/2022/20342-statistical-modelling-2m-temperature-and-10m-wind-speed-forecast-errors.pdf)
 * [The digital revolution of Earth-system science](https://www.nature.com/articles/s43588-021-00023-0) | ([link](https://drive.google.com/file/d/1EPJ7YVudJnOd1vI537QJt5cWwFo96AcX/view?usp=share_link))
+* [70 years of machine learning in geoscience in review](https://www.sciencedirect.com/science/article/pii/S0065268720300054#:~:text=This%20review%20addresses%20the%20development,machine%20learning%20and%20its%20challenges.)
 
 Ainda sobre o tema, José Aravéquia acrescenta que as questões colocadas pelo Haroldo Fraga são muito amplas para serem discutidas no escopo das reuniões do macro grupo de assimilação de dados. Comenta que na Europa e nos Estados Unidos, há centros e entidades organizadas e especializadas no controle e no monitoramento de satélites e do uso de dados de satélites. Cita como exemplos a _European Organisation for the Exploitation of Meteorological Satellites_ ([EUMETSAT](https://www.eumetsat.int/)) na Eurupa e o _National Environmental Satellite, Data, and Information Service_ ([NESDIS](https://www.nesdis.noaa.gov/)) nos Estados Unidos. Acrescenta que, no caso do Brasil, provavelmente o Laboratório de Instrumentação Meteorológica ([LIM](http://lim1.cptec.inpe.br/)) do INPE seja o responsável por cumprir com o papel de prover as informações sobre a calibração e o erro dos instrumentos de medição. Luiz Sapucci concorda com o José Aravéquia e lembra que a Divisão de Satélites e Sistemas Ambientais ([DISSM](http://satelite.cptec.inpe.br)) também tem esse papel em relação aos dados de satélites. Renato Galante concorda com a colocação dos colegas e reforça o papel da DISSM no desenvolvimento de métodos, validação de produtos e na participação de experimentos de campo. Comenta que estas atividades eram mais intensas há alguns anos quando a divisão possuía mais recursos humanos. 
 
