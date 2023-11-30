@@ -53,7 +53,7 @@ A dinâmica do curso foi uma sequência de apresentações seguida de uma breve 
 
 Para desenvolver as atividades praticas do curso foi disponibilizado aos participantes um acesso ao supercomputador do NCAR chamado Cheyenne.ncar.edu para isso algumas ações de segurança foram requeridas como criar uma senha e utilizar uma autenticação de acesso através de um aplicativo do celular. Foi requerido que os participantes tivessem seu próprio leptop disponível durante o curso e que ele estivesse apto a acessar um ambiente Linux via acesso SSH. Foi criado um usuário no sistema Cheyenne e um ambiente de submissão de Jobs no supercomputador. Foi recomendado a leitura do manual da máquina para todos os participantes. O manual está disponível no seguinte link de internet:
 
-https://www2.mmm.ucar.edu/projects/mpas/mpas_atmosphere_users_guide_8.0.1.pdf
+[https://www2.mmm.ucar.edu/projects/mpas/mpas_atmosphere_users_guide_8.0.1.pdf](https://www2.mmm.ucar.edu/projects/mpas/mpas_atmosphere_users_guide_8.0.1.pdf).
 
 As atividades práticas foram desenvolvidas em seções específicas para esse fim, cujo a lista abaixo detalha as seções no curso.
 
@@ -80,25 +80,25 @@ As atividades práticas foram desenvolvidas em seções específicas para esse f
 |14:00 | – | 14:45 (45 mins) | Practical session|
 |15:00 | – | 16:00 (60 mins) | Practical session|
 
-Nas atividades práticas houve uma lista de tarefas a serem desenvolvidas pelos participantes. As instruções para as aulas práticas estão disponives no link https://www2.mmm.ucar.edu/projects/mpas/tutorial/Boulder2023/
+Nas atividades práticas houve uma lista de tarefas a serem desenvolvidas pelos participantes. As instruções para as aulas práticas estão disponives no link [https://www2.mmm.ucar.edu/projects/mpas/tutorial/Boulder2023/](https://www2.mmm.ucar.edu/projects/mpas/tutorial/Boulder2023/).
 
 A lista de atividades são as que se segue:
 
-* 0. Pré-requisitos e configuração do ambiente
-* 1. Compilando MPAS e criando arquivos estáticos e ICs idealizados
-* 2. Criando ICs de dados reais e executando uma simulação
-* 3. Executando MPAS com resolução variável e visualização básica
-* 4. Executando simulações de área limitada
-* 5. Definição de novos fluxos de saída e visualização
-* 6. Adicionando novos rastreadores passivos
-* 7. Computando novo campo de diagnóstico
+0. Pré-requisitos e configuração do ambiente
+1. Compilando MPAS e criando arquivos estáticos e ICs idealizados
+2. Criando ICs de dados reais e executando uma simulação
+3. Executando MPAS com resolução variável e visualização básica
+4. Executando simulações de área limitada
+5. Definição de novos fluxos de saída e visualização
+6. Adicionando novos rastreadores passivos
+7. Computando novo campo de diagnóstico
 
 ## Repositório dos dados usados nos exercicios na maquina cheyenne.ucar.edu
 Uma copia fiel de todo a estrutura de diretórios criadas durante o curso usando o ambiente da maquina cheyenne.ucar.edu foi copiado para um repositório ftp do CPTEC e nele tdos podem acessar os dados usados e os resultados dos exercícios realizados. Esses dados não são colocados no reposiório do GitHub por conter uma grande quantidades de dados binários ou dados netcdf finais nada compactos e que ficaria inviavel o uso e desconfiguraria o ambiente para que ele foi criado, por isso se optou por um ambiente ftp, uma vez que é apenas para ser acessado visualizado, mas não baixado ou compilado.
 
 Todo o conjunto de dados disponivel está disponivel no endereço:
 
-http://ftp1.cptec.inpe.br/pesquisa/das/MPAS-Tutorial-NCAR-2023/mpas_tutorial/
+[http://ftp1.cptec.inpe.br/pesquisa/das/MPAS-Tutorial-NCAR-2023/mpas_tutorial/](http://ftp1.cptec.inpe.br/pesquisa/das/MPAS-Tutorial-NCAR-2023/mpas_tutorial/).
 
 A estrutura de diretório é ilustrada pela figura abaixo:
 

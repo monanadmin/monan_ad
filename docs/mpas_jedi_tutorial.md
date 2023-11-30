@@ -26,6 +26,7 @@ A dinâmica do curso foi uma sequência de apresentações seguida de uma breve 
 | 13:30	| –| 	14:00 (30 mins)	| Algorithms (1): 3D/4DEnVar [slides](https://www2.mmm.ucar.edu/projects/mpas-jedi/tutorial/202309NCAR/lectures/4-3D4DEnVar.pdf) | Robert Nystrom |  
 | 15:15	| – | 15:45 (30 mins)| 	Observations (2): Assimilate "conventional" obs [slides](https://www2.mmm.ucar.edu/projects/mpas-jedi/tutorial/202309NCAR/lectures/5-CONV_DA.pdf) |  Junmei Ban | 
 
+
 ### Friday, 22 September
 
 | Início | - | Fim | Título | Autor |
@@ -38,12 +39,13 @@ A dinâmica do curso foi uma sequência de apresentações seguida de uma breve 
 |13:30 | – | 14:20 (50 mins) | Workflow & Graphics packages [slides](https://www2.mmm.ucar.edu/projects/mpas-jedi/tutorial/202309NCAR/lectures/9-Workflow-Graphics.pdf) | Ivette Hernández Baños |
 |14:20 | – | 14:35 (15 mins) | Regional MPAS-JEDI [slides](https://www2.mmm.ucar.edu/projects/mpas-jedi/tutorial/202309NCAR/lectures/10-Regional.pdf) | Jake Liu |
 |14:35 | – | 14:50 (15 mins) | Break |  
+
  
 ## Atividades práticas do curso MPAS tutorial
 
 Para desenvolver as atividades praticas do curso foi disponibilizado aos participantes um acesso ao supercomputador do NCAR chamado Cheyenne.ncar.edu para isso algumas ações de segurança foram requeridas como criar uma senha e utilizar uma autenticação de acesso através de um aplicativo do celular. Foi requerido que os participantes tivessem seu próprio leptop disponível durante o curso e que ele estivesse apto a acessar um ambiente Linux via acesso SSH. Foi criado um usuário no sistema Cheyenne e um ambiente de submissão de Jobs no supercomputador. Foi recomendado a leitura do manual da máquina para todos os participantes. O manual está disponível no seguinte link de internet:
 
-https://www2.mmm.ucar.edu/projects/mpas/mpas_atmosphere_users_guide_8.0.1.pdf
+[https://www2.mmm.ucar.edu/projects/mpas/mpas_atmosphere_users_guide_8.0.1.pdf](https://www2.mmm.ucar.edu/projects/mpas/mpas_atmosphere_users_guide_8.0.1.pdf).
 
 As atividades práticas foram desenvolvidas em seções específicas para esse fim, cujo a lista abaixo detalha as seções no curso.
 
@@ -61,7 +63,7 @@ As atividades práticas foram desenvolvidas em seções específicas para esse f
 |11:15   |–|	12:30 (75 mins)|	Practical session (3): 3DVar/Hybrid with satellite radiance|	
 |14:50	|–|	16:30 (100 mins)|	Practical session (4): EDA/LETKF, Plot OMB/OMA, Regional|	
 
-Nas atividades práticas houve uma lista de tarefas a serem desenvolvidas pelos participantes. As instruções para as aulas práticas estão disponives no link https://www2.mmm.ucar.edu/projects/mpas-jedi/tutorial/202309NCAR/.
+Nas atividades práticas houve uma lista de tarefas a serem desenvolvidas pelos participantes. As instruções para as aulas práticas estão disponives no link [https://www2.mmm.ucar.edu/projects/mpas-jedi/tutorial/202309NCAR/](https://www2.mmm.ucar.edu/projects/mpas-jedi/tutorial/202309NCAR/).
 
 A lista de atividades são as que se segue:
 
@@ -81,7 +83,7 @@ Uma cópia fiel de todo a estrutura de diretórios criadas durante o curso usand
 
 Todo o conjunto de dados disponivel está disponivel no endereço:
 
-http://ftp1.cptec.inpe.br/pesquisa/das/MPAS-Tutorial-NCAR-2023/mpas_jedi_tutorial/
+[http://ftp1.cptec.inpe.br/pesquisa/das/MPAS-Tutorial-NCAR-2023/mpas_jedi_tutorial/](http://ftp1.cptec.inpe.br/pesquisa/das/MPAS-Tutorial-NCAR-2023/mpas_jedi_tutorial/).
 
 A estrutura de diretório é ilustrada pela figura abaixo:
 
