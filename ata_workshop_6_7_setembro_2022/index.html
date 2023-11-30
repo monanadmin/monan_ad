@@ -1,0 +1,1620 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Site com as Atas das Reuniões do Grupo de Desenvolvimento em Assimilação de Dados para o MONAN">
+      
+      
+        <meta name="author" content="Carlos Frederico Bastarz">
+      
+      
+      
+        <link rel="prev" href="../recursos/">
+      
+      
+        <link rel="next" href="../mpas_tutorial/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+    
+    
+      
+        <title>Workshop 2022 - Grupo de Desenvolvimento em Assimilação de Dados para o MONAN</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.fad675c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#06-e-07-de-outubro-de-2022" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="Grupo de Desenvolvimento em Assimilação de Dados para o MONAN" class="md-header__button md-logo" aria-label="Grupo de Desenvolvimento em Assimilação de Dados para o MONAN" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo de Desenvolvimento em Assimilação de Dados para o MONAN
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Workshop 2022
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/monanadmin/monan_ad" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    monanadmin/monan_ad
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Grupo de Desenvolvimento em Assimilação de Dados para o MONAN" class="md-nav__button md-logo" aria-label="Grupo de Desenvolvimento em Assimilação de Dados para o MONAN" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Grupo de Desenvolvimento em Assimilação de Dados para o MONAN
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/monanadmin/monan_ad" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    monanadmin/monan_ad
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Atas 2022
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Atas 2022
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_1" id="__nav_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DAS-MONAN
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            DAS-MONAN
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ata_ad_25_agosto_2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    25 de Agosto de 2022
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ata_ad_29_setembro_2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    29 de Setembro de 2022
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ata_ad_27_outubro_2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    27 de Outubro de 2022
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ata_ad_23_novembro_2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    23 de Novembro de 2022
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_2" id="__nav_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DAS-DIMNT
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            DAS-DIMNT
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ata_ad_07_novembro_2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    07 de Novembro de 2022
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../outros_registros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outros Registros
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Atas 2023
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Atas 2023
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DAS-MONAN
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            DAS-MONAN
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ata_ad_26_janeiro_2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    26 de Janeiro de 2023
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ata_ad_23_fevereiro_2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    23 de Fevereiro de 2023
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../membros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Membros
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recursos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recursos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Workshop 2022
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Workshop 2022
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ata-0032022-revisao-003" class="md-nav__link">
+    <span class="md-ellipsis">
+      ATA 003/2022 - Revisão 003
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workshop
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dia-06-de-outubro-de-2022-manha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dia 06 de Outubro de 2022 - Manhã
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dia 06 de Outubro de 2022 - Manhã">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abertura-e-comentarios-gerais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abertura e Comentários Gerais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mesa-redonda-1-assimilacao-de-dados-e-a-interacao-entre-as-divisoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mesa redonda 1: Assimilação de dados e a Interação entre as divisões
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mesa redonda 1: Assimilação de dados e a Interação entre as divisões">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mesa-redonda-2-status-da-assimilacao-de-dados-no-sistema-terrestre-no-inpe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mesa redonda 2: Status da Assimilação de dados no sistema terrestre no INPE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mesa redonda 2: Status da Assimilação de dados no sistema terrestre no INPE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dia-06-de-outubro-de-2022-tarde" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dia 06 de Outubro de 2022 - Tarde
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dia 06 de Outubro de 2022 - Tarde">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#secoes-orais-1-e-2-expertise-dos-membros-da-das-dimn-e-colaboradores-e-as-perspectivas-futuras-no-monan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seções Orais 1 e 2: Expertise dos membros da DAS-DIMN e colaboradores e as perspectivas futuras no MONAN
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Seções Orais 1 e 2: Expertise dos membros da DAS-DIMN e colaboradores e as perspectivas futuras no MONAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dia-07-de-outubro-de-2022-manha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dia 07 de Outubro de 2022 - Manhã
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dia 07 de Outubro de 2022 - Manhã">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sessao-oral-3-grandes-desafios-na-assimilacao-no-inpe-no-contexto-do-monan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sessão Oral 3: Grandes desafios na assimilação no INPE no contexto do MONAN
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sessão Oral 3: Grandes desafios na assimilação no INPE no contexto do MONAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mesa-redonda-3-cooperacoes-nacionaisinternacionais-do-inpe-no-tema-assimilacao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mesa redonda 3: Cooperações nacionais/internacionais do INPE no tema assimilação de dados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mesa redonda 3: Cooperações nacionais/internacionais do INPE no tema assimilação de dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tutorial NCAR 2023
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorial NCAR 2023
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mpas_tutorial/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MPAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mpas_jedi_tutorial/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MPAS-JEDI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ata-0032022-revisao-003" class="md-nav__link">
+    <span class="md-ellipsis">
+      ATA 003/2022 - Revisão 003
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workshop
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workshop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dia-06-de-outubro-de-2022-manha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dia 06 de Outubro de 2022 - Manhã
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dia 06 de Outubro de 2022 - Manhã">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abertura-e-comentarios-gerais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abertura e Comentários Gerais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mesa-redonda-1-assimilacao-de-dados-e-a-interacao-entre-as-divisoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mesa redonda 1: Assimilação de dados e a Interação entre as divisões
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mesa redonda 1: Assimilação de dados e a Interação entre as divisões">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mesa-redonda-2-status-da-assimilacao-de-dados-no-sistema-terrestre-no-inpe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mesa redonda 2: Status da Assimilação de dados no sistema terrestre no INPE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mesa redonda 2: Status da Assimilação de dados no sistema terrestre no INPE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dia-06-de-outubro-de-2022-tarde" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dia 06 de Outubro de 2022 - Tarde
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dia 06 de Outubro de 2022 - Tarde">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#secoes-orais-1-e-2-expertise-dos-membros-da-das-dimn-e-colaboradores-e-as-perspectivas-futuras-no-monan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Seções Orais 1 e 2: Expertise dos membros da DAS-DIMN e colaboradores e as perspectivas futuras no MONAN
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Seções Orais 1 e 2: Expertise dos membros da DAS-DIMN e colaboradores e as perspectivas futuras no MONAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dia-07-de-outubro-de-2022-manha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dia 07 de Outubro de 2022 - Manhã
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dia 07 de Outubro de 2022 - Manhã">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sessao-oral-3-grandes-desafios-na-assimilacao-no-inpe-no-contexto-do-monan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sessão Oral 3: Grandes desafios na assimilação no INPE no contexto do MONAN
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sessão Oral 3: Grandes desafios na assimilação no INPE no contexto do MONAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mesa-redonda-3-cooperacoes-nacionaisinternacionais-do-inpe-no-tema-assimilacao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mesa redonda 3: Cooperações nacionais/internacionais do INPE no tema assimilação de dados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mesa redonda 3: Cooperações nacionais/internacionais do INPE no tema assimilação de dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussao_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<div><h1 id="06-e-07-de-outubro-de-2022">06 e 07 de Outubro de 2022</h1>
+<h2 id="ata-0032022-revisao-003">ATA 003/2022 - Revisão 003</h2>
+<details class="info">
+<summary>Informações</summary>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><input id="__tabbed_1_3" name="__tabbed_1" type="radio"><input id="__tabbed_1_4" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">Ata do I Workshop do Grupo de Desenvolvimento em Assimilação de Dados para o MONAN</label><label for="__tabbed_1_2">Histórico de Revisões</label><label for="__tabbed_1_3">Participações</label><label for="__tabbed_1_4">Registro</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Preparado por: Carlos Frederico Bastarz, Liviany Pereira Viana e Luiz Fernando Sapucci</li>
+<li>06 e 07 de Outubro de 2022</li>
+</ul>
+<p><strong>Coordenação:</strong> Luiz Fernando Sapucci</p>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>REVISÃO</th>
+<th>DATA DA REVISÃO</th>
+<th>ALTERAÇÕES</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R000</td>
+<td>07/10/2022</td>
+<td><ul> <li> Versão inicial </li> </ul></td>
+</tr>
+<tr>
+<td>R001</td>
+<td>10/10/2022</td>
+<td><ul> <li> Contribuições de Luiz Fernando Sapucci e Liviany Pereira Viana </li> </ul></td>
+</tr>
+<tr>
+<td>R002</td>
+<td>11/10/2022</td>
+<td><ul> <li> Revisão Geral </li> </ul></td>
+</tr>
+<tr>
+<td>R003</td>
+<td>17/10/2022</td>
+<td><ul> <li> Revisão Geral </li> </ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>
+<p><strong>INPE:</strong> </p>
+<ul>
+<li>Antonio Ocimar Manzi</li>
+<li>Carlos Frederico Bastarz</li>
+<li>Dirceu Luis Herdies</li>
+<li>Éder Paulo Vendrasco</li>
+<li>Eduardo Batista de Moraes Barbosa</li>
+<li>Haroldo Fraga de Campos Velho</li>
+<li>João Gerd Zell de Mattos</li>
+<li>José Antônio Aravéquia</li>
+<li>Kleber Pinheiro Naccarato </li>
+<li>Luciana Maria de Castro Mira</li>
+<li>Luciano Ponzi Pezzi</li>
+<li>Luiz Fernando Sapucci</li>
+<li>Liviany Pereira Viana</li>
+<li>Natália Rudorff Oliveira</li>
+<li>Paulo Yoshio Kubota</li>
+<li>Renato Galante Negri</li>
+<li>Sergio Henrique Soares Ferreira</li>
+</ul>
+</li>
+<li>
+<p><strong>UFBA:</strong> </p>
+<ul>
+<li>Clemente Augusto Souza Tanajura</li>
+</ul>
+</li>
+<li>
+<p><strong>UFPel:</strong> </p>
+<ul>
+<li>Fabrício Pereira Härter</li>
+</ul>
+</li>
+<li>
+<p><strong>USP:</strong></p>
+<ul>
+<li>César Magno Leite de Oliveira Júnior</li>
+</ul>
+</li>
+<li>
+<p><strong>NCAR:</strong></p>
+<ul>
+<li>Ivette Hernández Baños </li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><strong>Local, Data e Hora</strong></p>
+<ul>
+<li>Auditório do CPTEC        </li>
+<li>Plataforma Cisco Webex</li>
+<li>06 de Outubro de 2022, das 08:30 horas às 17:30 horas</li>
+<li>07 de Outubro de 2022, das 08:30 horas às 13:30 horas</li>
+</ul>
+</div>
+</div>
+</div>
+</details>
+<div class="admonition tip">
+<p class="admonition-title">Playlist e Repositório das Apresentações</p>
+<p>Acesse a playlist no <a href="https://www.youtube.com/playlist?list=PLI3MAF1dSyyw6scWHnca2QG2srTKg3BTL">YouTube <span class="twemoji youtube"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></span></a> e o conteúdo das apresentações no <a href="https://drive.google.com/drive/folders/1KjBX5Ek2mtY49SOBy9L1yex3ur9MhC5m?usp=sharing">Google Drive <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M339 314.9 175.4 32h161.2l163.6 282.9H339zm-137.5 23.6L120.9 480h310.5L512 338.5H201.5zM154.1 67.4 0 338.5 80.6 480 237 208.8 154.1 67.4z"></path></svg></span></a>.</p>
+</div>
+<h2 id="workshop">Workshop</h2>
+<p>Workshop Interno da DIMNT: "Assimilação de Dados nas componentes do sistema Terrestre: status e perspectivas futuras no contexto do MONAN"</p>
+<h3 id="objetivos">Objetivos</h3>
+<p>O objetivo do workshop é discutir internamente à Divisão de Modelagem Numérica do Sistema Terrestre (<a href="http://www3.cptec.inpe.br/dimnt/">DIMNT</a>) os conhecimentos primordiais sobre a assimilação de dados nas diversas componentes do sistema terrestre no contexto do programa <em>Model for Ocean-laNd-Atmosphere PredictioN</em> (<a href="https://monanadmin.github.io/monan_cc_docs/">MONAN</a>). Assim, como nos demais workshops realizados recentemente na DIMNT, a ênfase é fazer um balanço dos projetos concluídos e em andamento sobre as atividades realizadas nessa área no Centro de Previsão de Tempo e Estudos Climáticos (<a href="https://www.cptec.inpe.br/">CPTEC</a>), bem como da expertise dos membros desse macrogrupo para, baseado nelas, avaliar as perspectivas futuras de curto e longo prazos para o desenvolvimento do MONAN. Para atingir esse objetivo, mas evitando o esgotamento dos temas tratados devido à sua complexidade, detalhamento matemático e particulares que envolvem as componentes de um modelo do sistema terrestre, as apresentações foram programadas para serem curtas, objetivas e focadas nos desafios a serem enfrentados. Todos os temas tratados deverão ser mais bem discutidos em oportunidades futuras na série de seminários promovidos na DIMNT. Embora esse evento seja interno à divisão e como a assimilação de dados transcende as atividades nela desenvolvidas, todos os membros do <a href="https://monanadmin.github.io/monan_ad/">DAS-MONAN</a> advindos das três divisões do CPTEC foram convidados para serem apresentadores no workshop. O evento foi dividido em 3 eixos principais: <strong>1. Assimilação de dados no sistema terrestre; 2. Expertise dos membros DAS-DIMNT e perspectivas futuras na assimilação de dados no MONAN; 3. Desafios e oportunidades na assimilação de dados no MONAN.</strong> O workshop busca o intercâmbio de ideias, sugestões e experiências sobre algumas questões-chave importantes para o sucesso do programa MONAN, tais como:</p>
+<ol>
+<li>Como a assimilação de dados, componente transversal fundamental do MONAN, pode desenvolver as suas atividades de forma que atenda a todos os requisitos necessários de cada componente?</li>
+<li>Além da expertise que está hoje disponível no centro, quais são os requisitos adicionais em relação a recursos humanos para que a gestão de dados, assimilação de dados e modelagem em todas as componentes do MONAN sejam minimamente atendidas?</li>
+<li>Qual é o mínimo que podemos nos comprometer em entregar à sociedade brasileira e comunidade internacional, de forma perene no que se refere a assimilação operacional de dados?</li>
+</ol>
+<details class="info">
+<summary>Programação</summary>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked id="__tabbed_2_1" name="__tabbed_2" type="radio"><input id="__tabbed_2_2" name="__tabbed_2" type="radio"><input id="__tabbed_2_3" name="__tabbed_2" type="radio"><div class="tabbed-labels"><label for="__tabbed_2_1">Dia 6 de Outubro, Manhã</label><label for="__tabbed_2_2">Dia 6 de Outubro, Tarde</label><label for="__tabbed_2_3">Dia 7 de Outubro, Manhã</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>Tema:</strong> Assimilação de dados no sistema terrestre</p>
+<ul>
+<li><strong>Moderador:</strong> Luiz Fernando Sapucci</li>
+<li><strong>Relator:</strong> Carlos Frederico Bastarz</li>
+</ul>
+<p><strong>08:30-09:30</strong> Boas-vindas</p>
+<ul>
+<li><strong>08:30-08:40</strong> Apresentação geral dos objetivos e dinâmica de trabalho do workshop (Luiz Fernando Sapucci)</li>
+<li><strong>08:40-09:00</strong> Comentários gerais dos dirigentes do INPE sobre a importância do workshop para o MONAN (Dr. Clézio Marcos de Nardim (Diretor do INPE), Dr. Gilvan Sampaio de Oliveita (CGCT) e Dr. Saulo Ribeiro de Feitas (Programa MONAN);</li>
+<li><strong>09:00-09:30</strong> Introdução a assimilação de dados: conceitos básicos para um nivelamento mínimo sobre o tema.</li>
+</ul>
+<p><strong>Mesa redonda 1:</strong> Assimilação de dados e a Interação entre as divisões (<strong>Debatedores:</strong> Luiz Fernando Sapucci, João Gerd Zell de Mattos, Eduardo Batista de Moraes Barbosa)</p>
+<ul>
+<li><strong>09:30-09:40</strong> Estratégia de assimilação de dados atmosféricos em curso (Luiz Fernando Sapucci/João Gerd Zell de Mattos)</li>
+<li><strong>09:40-09:50</strong> Gestão de dados na DIPTC para a assimilação (Eduardo Batista de Moraes Barbosa/Luciana Maria de Castro Mira)</li>
+<li><span style="color:#EF5552"><strong>PALESTRA CANCELADA</strong></span> <del><strong>09:50-10:00</strong> Assimilação de dados na visão da DISSM (Renato Galante Negri/Natália Rudorff Oliveira)</del></li>
+<li><strong>10:00-10:30</strong> Plenária (questões aos debatedores e comentários)</li>
+<li><strong>10:30-10:40</strong> Intervalo </li>
+</ul>
+<p><strong>Mesa redonda 2:</strong> Status da assimilação de dados no sistema terrestre no INPE (<strong>Debatedores:</strong> Luiz Fernando Sapucci, Enver Manuel Amador Ramirez Gutierrez, João Gerd Zell de Mattos, Antonio Ocimar Manzi, Clemente Tanajura)</p>
+<ul>
+<li><strong>10:40-11:00</strong> Atmosférico BAM-HIB-GSI (Paulo Yoshio Kubota/Luiz Fernando Sapucci)</li>
+<li><strong>11:00-11:20</strong> Superfície continental (João Gerd Zell de Mattos/Antonio Ocimar Manzi)</li>
+<li><strong>11:20-11:40</strong> Superfície oceânica (Clemente Augusto Souza Tanajura/Luciano Ponzi Pezzi)</li>
+<li><strong>11:40-12:10</strong> Plenária (questões aos debatedores e comentários - Questão-chave 1)</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><strong>Tema:</strong> Expertise dos membros DAS-DIMNT e perspectivas futuras na assimilação de dados no MONAN</p>
+<ul>
+<li><strong>Moderador:</strong> Carlos Frederico Bastarz</li>
+<li><strong>Relatora:</strong> Liviany Pereira Viana   </li>
+</ul>
+<p><strong>14:00-14:10</strong> Abertura e dinâmica dos trabalhos (Carlos Frederico Bastarz)</p>
+<p><strong>Sessão oral 1:</strong> Expertise dos membros DAS-DIMNT e colaboradores e as Perspectivas futura no MONAN (parte I)</p>
+<ul>
+<li><strong>14:10-14:25</strong> Status da assimilação de radiância no INPE (César Magno Leite de Oliveira Júnior)</li>
+<li><span style="color:#EF5552"><strong>PALESTRA CANCELADA</strong></span> <del><strong>14:25-14:40</strong> Modelagem Regional Atmosférica de Alto Impacto e Assimilação de Dados (Dirceu Luiz Herdies)</del></li>
+<li><span style="color:#4CAE4F"><strong>NOVA</strong></span> <strong>14:25-14:40</strong> Matriz de covariâncias dos erros de previsão (Carlos Frederico Bastarz)</li>
+<li><strong>14:40-14:55</strong> Assimilação de dados de Radar e Descargas Elétricas (Eder Paulo Vendrasco)</li>
+<li><strong>14:55-15:10</strong> Algumas linhas de pesquisa associadas a Assimilação de Dados (José Antônio Aravéquia)</li>
+<li><strong>15:10-15:25</strong> Ferramenta de avaliação de impacto dos dados na PNT (Liviany Pereira Viana)</li>
+<li><strong>15:25-15:35</strong> Intervalo coffee break </li>
+</ul>
+<p><strong>Sessão oral 2:</strong> Expertise dos membros DAS-DIMNT e colaboradores e as perspectivas futuras no MONAN (parte II)</p>
+<ul>
+<li><strong>15:35-15:50</strong> Saberes em Assimilação de Dados na UFPEL (Fabricio Pereira Härter)</li>
+<li><strong>15:50-16:05</strong> Paralelização da geração de dados Prep-Bufr e controle de qualidade de convencionais (Sergio Henrique Soares Ferreira)</li>
+<li><strong>16:05-16:20</strong> Inicialização dentro da assimilação de dados (José Antônio Aravéquia)</li>
+<li><span style="color:#FFA724"><strong>MOVIDA PARA A MANHÃ DO DIA 07</strong></span> <del><strong>16:20-16:35</strong> Descargas atmosféricas: perspectivas de aplicações no MONAN (Kleber Pinheiro Naccarato)</del></li>
+<li><strong>16:35-16:50</strong> Assimilação de dados de rádio ocultação GNSS (Ivette Hernández Baños/Luiz Fernando Sapucci)</li>
+<li><span style="color:#FFA724"><strong>ADIANTADA PARA A TARDE DO DIA 06</strong></span> <del><strong>16:50-17:05</strong> Matriz de covariâncias dos erros de previsão (Carlos Frederico Bastarz)</del></li>
+<li><strong>17:05-17:30</strong> Fechamento com discussões gerais sobre o tema das seções orais 1 e 2 (Questão-chave 2)</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><strong>Tema:</strong> Desafios/oportunidades na assimilação de dados no MONAN</p>
+<ul>
+<li><strong>Moderador:</strong> João Gerd Zell de Mattos</li>
+<li><strong>Relator:</strong> Luiz Fernando Sapucci</li>
+</ul>
+<p><strong>08:40-08:50</strong> Abertura e dinâmica dos trabalhos (João Gerd Zell de Mattos)</p>
+<p><strong>Sessão oral 2:</strong> Expertise dos membros DAS-DIMNT e colaboradores e as perspectivas futuras no MONAN (parte III)</p>
+<ul>
+<li><span style="color:#4CAE4F"><strong>NOVA</strong></span> <strong>08:50-09:10</strong> Descargas atmosféricas: perspectivas de aplicações no MONAN (Kleber Pinheiro Naccarato)</li>
+</ul>
+<p><strong>Sessão oral 3:</strong> Grandes desafios na assimilação no INPE no contexto do MONAM</p>
+<ul>
+<li><strong>09:10-09:30</strong> Sistema JEDI e a assimilação nas diferentes componentes do MONAN (João Gerd Zell de Mattos)</li>
+<li><strong>09:30-09:50</strong> Assimilação de dados usando redes neurais (Haroldo Fraga de Campos Velho)</li>
+<li><strong>09:50-10:10</strong> Assimilação de dados nas componentes do MONAM fracamente e fortemente acoplada (Luiz Fernando Sapucci)</li>
+<li><strong>10:10-10:30</strong> Assimilação híbrida de dados visando a previsão por ensemble (Carlos Frederico Bastarz)</li>
+<li><strong>10:30-10:50</strong> Intervalo coffee break </li>
+</ul>
+<p><strong>Mesa redonda 3:</strong> Cooperações nacionais/internacionais do INPE no tema assimilação de dados (<strong>Debatedores:</strong> Haroldo Fraga de Campos Velho, Fabricio Pereira Härter, Clemente Augusto Souza Tanajura, Luiz Fernando Sapucci)</p>
+<ul>
+<li><strong>10:50-11:00</strong> Potencial da comunidade acadêmica das universidades no desenvolvimento da assimilação de dados no Brasil (Fabricio Pereira Härter)</li>
+<li><strong>11:00-11:10</strong> Explanação sobre a participação da CGCT em fóruns internacionais dos centros de PNT, Cooperação INPE-NOAA e INPE-ECMWF em assimilação de dados e modelagem (Luiz Fernando Sapucci)</li>
+<li><strong>11:10-11:40</strong> Plenária (questões aos debatedores e comentários - Questão-chave 3)</li>
+<li><strong>11:40-12:00</strong> Encerramento do workshop.</li>
+</ul>
+</div>
+</div>
+</div>
+</details>
+<h3 id="dia-06-de-outubro-de-2022-manha">Dia 06 de Outubro de 2022 - Manhã</h3>
+<h4 id="abertura-e-comentarios-gerais">Abertura e Comentários Gerais</h4>
+<p>O workshop DAS-DIMNT, realizado entre os dias 06 e 07 de outubro de 2022, teve início com a fala Luiz Sapucci, que explicou a dinâmica dos trabalhos e os objetivos do workshop. O workshop é parte integrante de uma série de workshops promovidos pela DIMNT, onde os especialistas da divisão apresentam os trabalhos desenvolvidos nas componentes do sistema terrestre, de forma a fomentar e potencializar os desenvolvimentos a serem integrados ao MONAN. Sobre o tema assimilação de dados, Luiz Sapucci cita os trabalhos em desenvolvimento sobre o tema na DIMNT e a forma como eles podem ser aproveitados para o desenvolvimento do MONAN. Cita a importância do novo modelo para a comunidade científica brasileira e a importância das suas aplicações para o benefício da sociedade. Em seguida, convida Monica Rocha (vice-diretora do INPE) que representou o diretor nesse evento, em função de sua agenda ter sobrido modificações de última hora, bem como o Saulo Freitas (coordenador da DIMNT) para os seus comentários iniciais sobre a realização do workshop.
+Monica Rocha inicia a sua fala cumprimentando os organizadores do workshop, comenta sobre a importância desse tipo de atividade para o INPE e ressalta a importância das atividades de modelagem numérica para a previsão das componentes do sistema terrestre. Saulo Freitas agradece a Monica Rocha, pela representação da direção do INPE e pelos comentários e, em seguida, comenta sobre a importância do desenvolvimento do MONAN, como novo paradigma de modelagem numérica para o sistema terrestre no INPE. Cita a importância da assimilação de dados e a os trabalhos que estão sendo desenvolvidos na componente atmosférica e que podem ser aproveitados para o desenvolvimento do MONAN.</p>
+<p>Em seguida, Luiz Sapucci agradece pelos comentários iniciais da Monica Rocha e do Saulo Freitas e convida o João Gerd para fazer uma apresentação sobre os conceitos básicos da assimilação de dados. A intenção desta apresentação, é fornecer aos participantes que atuam em áreas diversas à assimilação de dados, as ideias e conceitos primordiais para o entendimento, a participação e o bom aproveitamento do workshop.</p>
+<p>João Gerd apresenta a palestra intitulada <a href="https://drive.google.com/file/d/1KQyTrqqNIze9qrh0dw5i6075TvAHuW_F/view?usp=sharing">"Introdução a assimilação de dados: conceitos básicos"</a>. Durante a apresentação, João Gerd introduz o problema da assimilação de dados de forma didática, apresentando a ideia principal da assimilação de dados fazendo uma analogia com um motorista guiando um carro: quando o motorista está atento, ele segue o percurso sem grandes desvios; quando ele se distrai ou quando ele está sonolento, ele desvia do percurso principal. Nesse sentido, quando o motorista abre os olhos e presta mais atenção, ele retoma o percurso. Analogamente, a assimilação de dados tenta trazer o modelo numérico para mais próximo daquilo que é observado (tal como o motorista quando abre os olhos e presta atenção ao percurso). Ao que se segue, João Gerd introduz a equação geral da análise e as suas principais componentes, como os vetores de estado do modelo, análise e observação, as matrizes de covariâncias dos erros de modelagem e observação e o operador observação. São apresentados também o método variacional e as técnicas utilizadas para a minimização da função custo.</p>
+<p>Com a finalização da apresentação do João Gerd, Luiz Sapucci dá prosseguimento para as apresentações que fomentaram as discussões da primeira mesa redonda do dia.</p>
+<h4 id="mesa-redonda-1-assimilacao-de-dados-e-a-interacao-entre-as-divisoes">Mesa redonda 1: Assimilação de dados e a Interação entre as divisões</h4>
+<p>As apresentações e discussões realizadas ao longo desta sessão, visam responder à seguinte pergunta:</p>
+<div class="admonition question">
+<p class="admonition-title">Questão-chave 1</p>
+<p>Como a assimilação de dados, componente transversal fundamental do MONAN, pode desenvolver as suas atividades de forma que atenda a todos os requisitos necessários de cada componente?</p>
+</div>
+<p>A primeira apresentação desta sessão é realizada por Luiz Sapucci sobre o tema <a href="https://docs.google.com/presentation/d/1PLFGOYgmCLyPUtDFQVGoZDvEIfPRuoL2/edit?usp=sharing&amp;ouid=110636406231513515149&amp;rtpof=true&amp;sd=true">"Estratégia de assimilação de dados em curso no INPE"</a>. Em sua apresentação, Luiz Sapucci faz um retrospecto sobre o desenvolvimento da estratégia proposta para o desenvolvimento da assimilação de dados atmosféricos na divisão e sobre a sua adaptação para o programa MONAN. Cita informações sobre uma metodologia de desenvolvimentos em espiral, em que cada frente de trabalho é revisitada à medida em que as demais são concluídas. Em sua fala, cita a importância da equipe de pré-processamento da Divisão de Previsão de Tempo e Clima (<a href="https://www.gov.br/inpe/pt-br/composicao/diretoria/coordenacao-geral-de-ciencias-da-terra-cgct/divisao-de-previsao-de-tempo-e-clima-diptc">DIPTC</a>) e dos especialistas em satélites da Divisão de Sensores e Satélites Meteorológicos (DISSM) do CPTEC. Sobre as ferramentas de avaliação, cita os desenvolvimentos dos processos relacionados com a avaliação da assimilação de dados e a ferramenta de avaliação de impacto das observações, as quais permitem o monitoramento das análises operacionais, ingestão de dados observacionais e do seu impacto nas análises.</p>
+<p>Em seguida, Eduardo Barbosa é convidado para fazer a sua apresentação intitulada <a href="https://drive.google.com/file/d/1T9TGopfuPZ4ln67UwJ5y4nj4oRqxu7Fp/view?usp=sharing">"Gestão de Dados na DIPTC para a Assimilação"</a>, sobre as atividades realizadas no escopo do pré-processamento na DIPTC do CPTEC. Em sua fala, Eduardo Barbosa apresenta informações gerais sobre as bases de dados em uso no CPTEC, além de uma descrição do funcionamento do sistema de pré-processamento. Eduardo Barbosa destaca a necessidade de uma interface de monitoramento dos dados recebidos no centro e sobre a disseminação e a organização das informações sobre os dados recebidos pelo centro. Cita também a dificuldade em se entender algumas estruturas de dados devido à forma como os centros disseminam alguns tipos de informações. Um exemplo disso, cita, são os manuais da <em>World Meteorological Organization</em> (<a href="https://public.wmo.int/en">WMO</a>), de onde foram obtidas as informações necessárias para o aprimoramento do controle de qualidade dos dados.</p>
+<h5 id="discussao">Discussão</h5>
+<p>Com estas duas apresentações iniciais, passou-se para as discussões em uma sessão plenária. Na sessão plenária, os apresentadores e convidados discutiram diversos aspectos relacionados com o conteúdo apresentado, no que tange a sistematização dos desenvolvimentos da componente atmosférica na assimilação de dados e do pré-processamento das observações realizada no centro. Sobre a apresentação do Eduardo Barbosa, Dirceu Herdies comenta que tem acesso a alguns tipos de dados de aeronaves e que estes podem ser incluídos oficialmente no fluxo de dados do CPTEC. Sobre esse tipo de assunto, Saulo Freitas ressalta a importância de se fazer acordos institucionais de forma que estas colaborações possam formalizar a obtenção dos dados.</p>
+<h4 id="mesa-redonda-2-status-da-assimilacao-de-dados-no-sistema-terrestre-no-inpe">Mesa redonda 2: Status da Assimilação de dados no sistema terrestre no INPE</h4>
+<p>As apresentações e discussões realizadas ao longo desta sessão, visam responder à seguinte pergunta:</p>
+<div class="admonition question">
+<p class="admonition-title">Questão-chave 2</p>
+<p>Além da expertise que está hoje disponível no centro, quais são os requisitos adicionais em relação a recursos humanos para que a gestão de dados, assimilação de dados e modelagem em todas as componentes do MONAN sejam minimamente atendidas?</p>
+</div>
+<p>A primeira apresentação desta sessão, foi realizada pelo Luiz Sapucci e pelo Paulo Kubota sobre o status da assimilação de dados no sistema terrestre do INPE, intitulada <a href="https://docs.google.com/presentation/d/1sk2YfomUgIrzn2GcP7MgaQxaijYv2zva/edit?usp=sharing&amp;ouid=110636406231513515149&amp;rtpof=true&amp;sd=true">"Atmosférico BAM-HIB-GSI"</a>. Na apresentação, Luiz Sapucci comenta sobre a interação entre os grupos de modelagem global e assimilação de dados. Destaca o desenvolvimento do Sistema de Modelagem Numérica e Assimilação de dados (SMNA) e a forma de organização dos desenvolvimentos na DIMNT em macrogrupos, em que a interação entre os membros das três divisões do CPTEC é uma componente fundamental. Destaca também o esforço conjunto realizado entre os dois grupos, liderado pelo João Gerd e Paulo Kubota para o estabelecimento do SMNA, incluindo desenvolvimentos importantes, tais como, a coordenada vertical híbrida, o modelo de superfície <em>Integrated Biosphere Simulator</em> (<a href="https://en.wikipedia.org/wiki/Integrated_Biosphere_Simulator">IBIS</a>) e o suporte e colaboração do Grupo de Computação Científica (GCC). Como resultado deste esforço, Luiz Sapucci destaca os bons resultados obtidos, mas avalia que ainda há espaço para melhorias. Nesse sentido, comenta sobre as atividades de avaliação do estágio atual dos experimentos envolvendo o modelo atmosférico em coordenada sigma e híbrida. Nesse aspecto, cita que com as novas implementações realizadas pela equipe de desenvolvimento do modelo global, houve o aumento na quantidade de dados de observações assimiladas, resultando em melhorias nas quantidades medidas de <em>Observation Minus Analysis</em> (OMA) e <em>Observation Minus Forecast</em> (OMF). Cita também a organização de um cronograma de entregas para o SMNA visando a operação, a qual ainda não foi efetivada, mas que há um comitê formado para acompanhar esta transição.</p>
+<p>Em seguida, João Gerd realiza a apresentação intitulada <a href="https://drive.google.com/file/d/1WO1Tsw9ZETWoPaffrVCWcWDLHAsuaVOI/view?usp=sharing">"Superfície Continental"</a>. João Gerd cita os desenvolvimentos realizados no escopo da assimilação de dados para a superfície continental. Comenta sobre a metodologia utilizada que é baseada na Interpolação Ótima (IO), na qual são utilizados parâmetros atmosféricos como a temperatura do ar e a umidade relativa a 2 metros para calcular a temperatura da superfície continental, a qual é extrapolada para camadas mais profundas do solo. Comenta que, atualmente, a metodologia encontra-se implementada para o modelo <em>Brazilian Atmospheric Model</em> (<a href="https://journals.ametsoc.org/view/journals/wefo/31/5/waf-d-16-0062_1.xml">BAM</a>) do CPTEC e que um dos desafios do trabalho é a falta de observações de água no solo para a assimilação e que são poucas as estações que medem esse parâmetro.</p>
+<p>Na última apresentação da sessão, Clemente Tanajura apresenta intitulado <a href="https://docs.google.com/presentation/d/14yiVMaqjMD7HytBmgT39eZdRA2tcVw_L/edit?usp=sharing&amp;ouid=110636406231513515149&amp;rtpof=true&amp;sd=true">"Superfície Oceânica"</a>, onde são apresentados diversos trabalhos realizados na área de modelagem e assimilação de dados oceânicos. Clemente Tanajura cita alguns trabalhos realizados com o modelo <em>Hybrid Coordinate Ocean Model</em> (<a href="https://www.hycom.org/">HYCOM</a>) e o sistema de assimilação de dados oceânico <em>REMO Ocean Data Assimilation System</em> (RODAS), comenta sobre a problema da fuga de cérebros em decorrência da falta de contratações de pessoal especializado. Cita também os trabalhos realizados pelo grupo <a href="https://oceanpredict.org/"><em>Ocean Predict</em></a>, que tem atuado na assimilação de dados oceânicos com perspectivas também para a assimilação de dados acoplada oceano-atmosfera. Sobre o sistema de assimilação de dados da Rede de Modelagem e Observação Oceanográfica (<a href="https://www.rederemo.org/">REMO</a>), Clemente Tanajura comenta que o sistema é baseado em um ensemble de IO e que a matriz de covariâncias é estimada a priori, a partir de um conjunto de integrações do modelo oceânico entre 1997 e 2008. Deste conjunto, são selecionados 11 membros ao longo de 12 anos, totalizando 132 membros que são então utilizados na estimativa. Clemente Tanajura comenta que a matriz de covariâncias inicial é estimada desta forma para que seja possível amostrar a variabilidade intrasazonal do modelo. Apresenta também diversos resultados de vários experimentos do tipo <em>Observing System Experiments</em> (OSE) utilizando dados sintéticos e perfis de <em>Expendable BathyThermograph</em> (XBT) e <em>Conductivity Temperature Depth</em> (CTD). Cita que, atualmente, em seu grupo de trabalho, estão trabalhando com uma nova versão do RODAS utilizando o <em>Ensemble Kalman Filter</em> (EnKF) mas que o ensemble de IO, apesar de ser mais simples, ainda é uma opção operacionalmente viável.</p>
+<h5 id="discussao_1">Discussão</h5>
+<p>Após as três apresentações previstas para fomentar as discussões na sessão plenária, os participantes do workshop iniciam as discussões acerca do tema central da sessão: assimilação de dados nas componentes do sistema terrestre.</p>
+<p>Seguindo os comentários e intervenções da sessão, Luiz Sapucci destaca o sistema RODAS como um candidato para a assimilação da componente oceânica do MONAN, iniciando este trabalho no CPTEC. Cita que atualmente não há uma discussão sobre como fazer a assimilação oceânica no centro e que o trabalho do Clemente Tanajura é um bom ponto de partida. Sobre esse tópico, Clemente Tanajura concorda com Luiz Sapucci e comenta que este é um bom caminho para fomentar a assimilação de dados oceânicos no CPTEC a partir da transferência do RODAS para o centro. Comenta que esse processo também poderá ajudar na atualização do RODAS para o EnKF. Cita que, atualmente, o seu grupo de trabalho é muito pequeno, mas que a colaboração com o CPTEC é uma boa opção para ambos. Saulo Freitas parabeniza pelo esforço do Clemente Tanajura e do grupo DAS do CPTEC pela integração com o grupo de modelagem global e pelos resultados apresentados.</p>
+<p>Durante as discussões, citou-se o GCC e o papel importante que esse grupo tem nos mais diversos desenvolvimentos realizados no centro, tais como as otimizações realizadas na assimilação de dados, o processamento dos dados observacionais recebidos pelo centro para serem assimilados.</p>
+<h3 id="dia-06-de-outubro-de-2022-tarde">Dia 06 de Outubro de 2022 - Tarde</h3>
+<h4 id="secoes-orais-1-e-2-expertise-dos-membros-da-das-dimn-e-colaboradores-e-as-perspectivas-futuras-no-monan">Seções Orais 1 e 2: Expertise dos membros da DAS-DIMN e colaboradores e as perspectivas futuras no MONAN</h4>
+<p>Nas duas sessões seguintes, foram apresentados os trabalhos realizados pelos membros e colaboradores do grupo DAS-DIMNT. Dentre os apresentadores, destacam-se os colaboradores César Magno e Ivette Baños. César Magno foi colaborador do Programa de Capacitação Institucional (<a href="http://www.inpe.br/pci/">PCI</a>) do INPE e Ivette Baños, egressa do curso de Doutorado em Meteorologia do INPE, ambos orientados por Luiz Sapucci.</p>
+<p>Nesta sessão definiu-se que as perguntas seriam no final da mesma e que cada apresentador teria 15 minutos para a abordagem temática.</p>
+<p>Na primeira apresentação da sessão, César Magno mostra os resultados obtidos durante o desenvolvimento da bolsa do projeto PCI. Em sua apresentação intitulada <a href="https://docs.google.com/presentation/d/12xnD4535sgYCxZl3FQFFxFUyngGmYCm1/edit?usp=sharing&amp;ouid=110636406231513515149&amp;rtpof=true&amp;sd=true">"Assimilação de dados de radiância no aprimoramento da Previsão Numérica do CPTEC"</a>, César Magno apresenta as ferramentas utilizadas no escopo do projeto. Dentre as atividades desenvolvidas, cita ajustes no pacote estatístico para a avaliação da assimilação dos dados de radiâncias, o desenvolvimento de scripts e programas para a visualização das séries temporais e da distribuição espacial dos dados, a comparação do desempenho do SNMA em diferentes experimentos, a adaptação da biblioteca <a href="https://github.com/JCSDA/pycrtm">pyCRTM</a> para o modelo BAM e a produção de um artigo científico a ser publicado na <a href="https://www.scielo.br/j/rbmet/">Revista Brasileira de Meteorologia</a>. Comenta que a comparação dos experimentos realizados dentro do grupo de assimilação de dados foi importante porque permitiu que o grupo identificasse os efeitos dos aprimoramentos realizados a cada experimento. Sobre as atividades futuras, cita a ampliação do estudo da assimilação de radiâncias provenientes de outros sensores a bordo de satélites meteorológicos.</p>
+<p>Em seguida, Carlos Bastarz apresenta os desenvolvimentos relacionados com o cálculo da matriz de covariâncias para o modelo atmosférico do CPTEC. Na apresentação intitulada <a href="https://drive.google.com/file/d/1jYuH0Kvc8SpdwZBIyq5DSJAuxdqVoLDL/view?usp=sharing">"Matriz de covariâncias dos erros de previsão"</a>, Carlos Bastarz cita os desafios relacionados com as fontes de incerteza na modelagem e assimilação de dados e os limites de previsibilidade. Comenta sobre a forma como estas fontes de incerteza são modeladas e que a matriz de covariâncias dos erros de previsão tem grande importância na forma como os incrementos de análise são aplicados pelo sistema de assimilação de dados. Como produção técnica, Carlos Bastarz cita a produção de um artigo científico, o estabelecimento da técnica no centro para o cálculo da matriz de covariância dos erros de previsão para o modelo BAM, o qual pode ser revisitado sempre que atualizações forem realizadas no modelo, o desenvolvimento do pacote <a href="https://github.com/GAD-DIMNT-CPTEC/GSIBerror">GSIBerror</a> (um pacote escrito em Python para a verificação dos records da matriz de covariâncias global do sistema <em>Gridpoint Statistical Interpolation</em> (<a href="https://dtcenter.org/community-code/gridpoint-statistical-interpolation-gsi">GSI</a>). No final, comenta sobre alguns dos desafios relacionados com estas atividades. Dentre elas, cita alternativas que podem ser utilizadas para o cálculo da matriz de covariâncias, como a utilização de ensembles e médias móveis.</p>
+<p>Na sequência, Éder Vendrasco apresenta o trabalho intitulado <a href="https://docs.google.com/presentation/d/12ufbZ5qV308cFmPDc--QoZtFk0N9C72D/edit?usp=sharing&amp;ouid=110636406231513515149&amp;rtpof=true&amp;sd=true">"Assimilação de Dados de Radar e Descargas Elétricas"</a>. Em sua apresentação, Éder Vendrasco argumenta sobre a assimilação de dados de radar e a contribuição no sistema <em>Joint Effort for Data assimilation Integration</em> (<a href="https://www.jcsda.org/jcsda-project-jedi">JEDI</a>) e seus possíveis desafios. Apresenta alguns conceitos fundamentais sobre eletricidade atmosférica, cita quais tipos de dados de radar são assimilados e apresenta alguns exemplos de resultados obtidos com simulações realizadas para os Jogos Olímpicos de 2016, onde foram assimilados os dados do radar de São Roque e do Pico do Couto. Finaliza a sua apresentação citando algumas possibilidade de aplicação da assimilação de dados de radar e descargas elétricas a partir do framework do sistema JEDI.</p>
+<p>Em seguida, José Aravéquia é convidado para fazer a apresentação intitulada <a href="https://drive.google.com/file/d/19Mv8hyRgPDCXvFsT2Le9ZeQedHrslBR4/view?usp=sharing">"Algumas linhas de pesquisa associadas à Assimilação de Dados"</a>. Na sua apresentação, José Aravéquia apresentou as possíveis linhas de pesquisa inseridas na assimilação de dados  e o impacto na convecção. Na apresentação, José Aravéquia cita alguns dos desafios nessa linha de pesquisa e comenta sobre as necessidades para a melhoria do prognóstico de eventos convectivos importantes utilizando a assimilação de dados.</p>
+<p>Na temática do impacto das observações na assimilação de dados, Liviany Viana apresentou o trabalho intitulado <a href="https://drive.google.com/file/d/1cLIx4iRIxoNZXmKvPrNRDl4mImkDCBro/view?usp=sharing">"Ferramenta de Avaliação de Impacto dos Dados na PNT"</a>. Na apresentação, Liviany Viana apresentou e explicou  a ferramenta desenvolvida por João Gerd a partir da metodologia proposta por Todling (2013). Comentou sobre a aplicação da ferramenta para a verificação do impacto dos dados no SNMA, além da importância para o MONAN.</p>
+<p>Ao retornar do intervalo e dando continuidade ao workshop, Fabrício Härter apresentou o trabalho <a href="https://docs.google.com/presentation/d/1WEdyvP1T6jX2DzbHxGvNBWhhriQfGUdg/edit?usp=sharing&amp;ouid=110636406231513515149&amp;rtpof=true&amp;sd=true">"Saberes em Assimilação de Dados na UFPel"</a>. Na apresentação, Fabrício Härter fez uma síntese sobre os trabalhos envolvendo a assimilação de dados na Universidade Federal de Pelotas (<a href="https://portal.ufpel.edu.br/">UFPEL</a>) e as intenções do uso do sistema GSI. </p>
+<p>No contexto sobre a paralelização e o controle de qualidade dos dados convencionais, Sérgio Henrique apresentou o trabalho intitulado <a href="https://drive.google.com/file/d/16isAiac51RqFvKJCaqJlW2HszpElvxoc/view?usp=sharing">"Paralelização da Geração de Dados Prep-BUFR e Controle de Qualidade de Convencionais"</a>. Na apresentação, Sérgio Henrique mostrou os avanços no tempo de processamento dos dados de radiância e os desafios relacionados com essa atividade, a qual contou também com o apoio da equipe do GCC.</p>
+<p>Novamente, José Aravéquia é convidado para apresentar o trabalho <a href="https://drive.google.com/file/d/1yqnx7xTPIXO2M_N-B_FHm5CTKDeApfMs/view?usp=sharing">"Inicialização dentro da Assimilação de Dados"</a>. Na apresentação, José Aravéquia aborda o tema de inicialização na assimilação de dados, avaliando o impacto do <em>Tangent Linear Normal Mode Constraint</em> (TLNMC) no SNMA. </p>
+<p>Finalizando essa sessão, Ivette Baños apresentou o trabalho <a href="https://docs.google.com/presentation/d/11Zx4YOiOIuNGf7E3Y-0sT30BzTLIpJwK/edit?usp=sharing&amp;ouid=110636406231513515149&amp;rtpof=true&amp;sd=true">"Assimilação de Dados de Rádio Ocultação GNSS"</a>, onde explanou a importância de assimilar dados de rádio ocultação <em>Global Navigation Satellite System</em> (<a href="https://pt.wikipedia.org/wiki/Sistema_de_navega%C3%A7%C3%A3o_por_sat%C3%A9lite">GNSS</a>) e a informação dentro do sistema JEDI. </p>
+<p>Ainda nesta sessão, haveria a apresentação  de Kléber Naccarato, a qual foi transferida para a manhã do dia 7 de outubro.</p>
+<h5 id="discussao_2">Discussão</h5>
+<p>Como indicado pelo moderador Carlos Bastarz no início das sessões, as perguntas só poderiam ocorrer no final das mesmas. Sendo assim, o Saulo Freitas foi o primeiro a fazer a pergunta destinada tanto ao César Magno como ao grupo de assimilação de dados, sobre a inversão nos dados de radiância com respeito a mudança de coordenada vertical sigma para híbrida. Carlos Bastarz e João Gerd auxiliam na resposta e especulam sobre o desempenho do modelo BAM em coordenada sigma, sendo esta versão do modelo uma versão que apresentava problemas em altos níveis da atmosfera, sendo esta uma das motivações para a troca da coordenada vertical do modelo. Outras questões envolveram o tema de inicialização apresentado pelo José Aravéquia e sobre as tabelas Prep-BUFR, no contexto do trabalho apresentado pelo Sergio Ferreira. Sobre esse tema, a pergunta feita pelo Clemente Tanajura foi se as tabelas Prep-BUFR também consideram variáveis oceânicas ou apenas atmosféricas e quando o sistema de pré-processamento do CPTEC estaria pronto para receber um sistema operacional de assimilação de dados oceânico. Sergio Ferreira responde que é possível realizar o processamento desses dados, mas que essa atividade (geração dos arquivos Prep-BUFR) ainda não é realizada no centro, apesar de haver condições para isso. Fabrício Härter questionou José Aravéquia se havia algum tipo de filtro no processo de inicialização. Por fim, o próximo a perguntar foi o Clemente Tanajura, realizando duas perguntas, sendo: a primeira  direcionada ao Sérgio Henrique sobre informações dos dados oceânicos, em que o mesmo se responsabilizou em enviar uma lista com tal comunicação. A segunda pergunta, foi para o grupo de assimilação de dados do CPTEC sobre a tendência de definição por algum método específico para o conjunto de dados da modelagem oceânica, se 3DVar, 4DVar ou EnKF. João Gerd respondeu a Clemente Tanajura sobre a tendência utilizada para os processos, utilizando o modelo em coordenada híbrida (BAM-HIB-GSI com o 3DVar), depois atualizando para o 3DEnVar e uma transição entre o GSI e o JEDI. Na resposta, João Gerd informou que o JEDI não tem uma componente de assimilação de dados para a superfície continental. Clemente Tanajura propôs que o grupo brasileiro auxilie o grupo JEDI internacional e comentou que se a Marinha do Brasil fosse mais ativa no projeto Ocean Predict, que existe há mais de 20 anos, poderia entrar em contato diretamente tanto com o ECMWF como com outros centros. João Gerd se comprometeu a compartilhar com o Clemente Tanajura sobre a assimilação de dados da componente oceânica. Luiz Sapucci argumentou sobre a criação de uma rede de dados observacionais e o seu fortalecimento e, finalmente, sobre a necessidade de incluir no planejamento um período que envolva tanto o médio quanto o longo prazo.</p>
+<h3 id="dia-07-de-outubro-de-2022-manha">Dia 07 de Outubro de 2022 - Manhã</h3>
+<h4 id="sessao-oral-3-grandes-desafios-na-assimilacao-no-inpe-no-contexto-do-monan">Sessão Oral 3: Grandes desafios na assimilação no INPE no contexto do MONAN</h4>
+<p>Na abertura dos trabalhos do workshop em assimilação de dados na DIMNT, no início da manhã do dia 7 de outubro, foram destacadas pelo moderador as atividades programadas para o dia, que estariam focadas nos grandes desafios da assimilação para os próximos anos (Sessão Oral 3) e as oportunidades que poderão surgir na cooperação nacional e internacional do INPE no programa MONAN (Mesa Redonda 3). Foi destacado que o tempo para os temas é relativamente curto e que seminários específicos sobre cada tema deverão ser agendados oportunamente.</p>
+<p>Os trabalhos foram iniciados com a apresentação do João Gerd <a href="https://docs.google.com/presentation/d/1tsQaamHRU_h-UXJ6prnRE8amsA0Ci_Kp/edit?usp=sharing&amp;ouid=110636406231513515149&amp;rtpof=true&amp;sd=true">"Sistema JEDI e a assimilação nas diferentes componentes do MONAN"</a>. O conteúdo apresentado evidenciou a adequação do JEDI para os propósitos do MONAN e justificou o porquê do INPE  escolher esse sistema como o próximo sistema de assimilação usando os modelos do CPTEC. João Gerd destacou o status do sistema e quais métodos de assimilação de dados e em quais componentes já estão disponíveis para serem utilizados. Com a falta de tempo, as questões se restringiram a apenas uma do Luiz Flávio que destacou como os desenvolvedores do JEDI estão lidando com as deficiências do C++ na implementação do código. João Gerd disse que o canal de comunicação com os desenvolvedores está bem estabelecido e que ele ficou de levantar essa informação e reportar no futuro.</p>
+<p>Haroldo Fraga apresentou o trabalho sobre <a href="https://drive.google.com/file/d/1Itea4cMSBmhZFuyC5y5xHqOm_FWjv-aF/view?usp=sharing">"Assimilação de dados usando redes neurais"</a>. Na sua apresentação, o conteúdo e a profundidade do conhecimento apresentado deixou bastante evidente que será necessário marcar um seminário específico sobre esse tema na DIMNT para detalhar as metodologias apresentadas. Os resultados mostram que as atividades de assimilação de dados baseada em redes neurais são bastante promissoras e precisam ser bem endereçadas no programa MONAN.  Embora o tempo dedicado a esse tema já estivesse esgotado, diversas perguntas foram feitas, o que demonstra o interesse dos participantes no tema. Carlos Bastarz levantou a possibilidade de se investir em métodos de inteligência artificial para aplicações em previsão por ensemble, mas especificamente para minimizar o custo computacional de previsão por ensemble para atualizar a matriz de erros do modelo global em uso no CPTEC. Haroldo Fraga externou que esse trabalho é factível e que pode ser bastante explorado no MONAN. No entanto, ele reportou que não dispõe de mão de obra para isso, mas tem muito interesse nesse trabalho. Luiz Sapucci chamou a atenção para o ganho em tempo de processamento obtido com as redes neurais na assimilação de dados e que com a escassez de máquinas, esses métodos precisam ser bem utilizados. João Gerd destacou que uma fase importante desse processo é o tempo requerido para o treinamento da rede, que normalmente não é levado em consideração nos resultados finais, mas que é uma atividade muito importante. Haroldo Fraga agradeceu as questões e se colocou à disposição para avançar com essa atividade no MONAN.</p>
+<p>Luiz Sapucci apresentou sobre as atividades em <a href="https://docs.google.com/presentation/d/1omOHuS3MYzJ5TUxApsH713HSxBgf-hBA/edit?usp=sharing&amp;ouid=110636406231513515149&amp;rtpof=true&amp;sd=true">"Assimilação de dados nas componentes do MONAM fracamente e fortemente acoplada"</a> e destacou a importância da qualidade do modelo e do acoplamento entre as componentes para que a assimilação, mesmo que desacoplada, possa gerar bons resultados. A assimilação fortemente acoplada é ainda algo que está no limite do conhecimento científico, mas que com o uso de modelos acoplados como o MONAN, esse é um passo importante para avançar o conhecimento.</p>
+<p>Carlos Bastarz apresentou sobre a <a href="https://drive.google.com/file/d/1UNSQSI48amc58e3e7H9fkgny3qP9V_XM/view?usp=sharing">"Assimilação de dados híbrida visando a previsão por ensemble"</a>, na qual foi feita uma retrospectiva de todas as ações realizadas no INPE nesse tema, desde a implementação da primeira versão ensemble em escala global no centro até o seu estado atual. Foi falado das atividades desenvolvidas nos últimos anos e do status da versão operacional. Em sua apresentação, Carlos Bastarz destacou a importância do ensemble e sobre a necessidade de haver mais pessoas envolvidas com essa atividade no centro. </p>
+<h5 id="discussao_3">Discussão</h5>
+<p>Após a apresentação de Carlos Bastarz, durante as discussões sobre os temas abordados, Éder Vendrasco comenta sobre a importância do centro ter a sua suíte de previsão por ensemble. Nessa mesma linha, Ariane Frassoni comenta sobre a importância da informação das incertezas que as previsões por ensemble fornecem. Sobre a metodologia utilizada para gerar o ensemble de análises, João Gerd reforça sobre a importância de o grupo de assimilação de dados avançar para técnicas mais modernas como o 3DEnVar. Saulo Freitas comenta sobre a perspectiva de haver novas contratações que podem ajudar a desenvolver a previsão por ensemble no centro, mas mais do que isso, que deverá haver uma mudança de paradígma no sentido de que a previsão por ensemble deverá se tornar o meio principal para a produção de previsões numéricas. </p>
+<h4 id="mesa-redonda-3-cooperacoes-nacionaisinternacionais-do-inpe-no-tema-assimilacao-de-dados">Mesa redonda 3: Cooperações nacionais/internacionais do INPE no tema assimilação de dados</h4>
+<p>As apresentações e discussões realizadas ao longo desta sessão, visam responder à seguinte pergunta:</p>
+<div class="admonition question">
+<p class="admonition-title">Questão-chave 3</p>
+<p>Qual é o mínimo que podemos nos comprometer em entregar à sociedade brasileira e comunidade internacional, de forma perene no que se refere a assimilação operacional de dados?</p>
+</div>
+<p>Na Mesa Redonda 3, Fabrício Härter apresentou informações sobre o <a href="https://drive.google.com/file/d/1fjK6Mu-wM5KpKuRe6HwQFVmMxSiPA3eq/view?usp=sharing">"Potencial da comunidade acadêmica das universidades no desenvolvimento da assimilação de dados no Brasil"</a> e, em seguida, Luiz Sapucci apresentou informações sobre a <a href="https://docs.google.com/presentation/d/1hTp30Oik3XxH7kmnsF1eS3s8upPTKm8i/edit?usp=sharing&amp;ouid=110636406231513515149&amp;rtpof=true&amp;sd=true">"Participação da CGCT em fóruns internacionais dos centros de PNT, Cooperação INPE-NOAA e INPE-ECMWF em assimilação de dados e modelagem"</a>. Os membros debatedores da mesa foram Haroldo Fraga, Clemente Tanajura, Fabrício Härter e Saulo Freitas. A Questão Chave 3, enunciada no início desta sessão, foi posta para os participantes da mesa. Diversas questões foram apresentadas e discutidas pelos membros. A primeira questão foi apresentada por Saulo Freitas, sobre a organização do programa MONAN, em que há um consenso entre os líderes de que as atividades nas universidades devem ser apoiadas e que estas sejam mantidas nas universidades, sem que sejam necessariamente desenvolvidas no INPE. Para Saulo Freitas, o envolvimento das universidades é importante e cita, como exemplo, a previsão de tempo local que pode ser realizada nas universidades com assimilação de dados de radar usando o MONAN, como modelo de alta resolução, para o qual a versão global do modelo (MONAN), realizada no CPTEC, sirva como condição inicial e contorno. Saulo Freitas questionou os colegas das universidades, citando como exemplo o sistema de assimilação de dados oceânico, se seria pertinente pensar que eles possam implementar seus sistemas no JEDI. Clemente Tanajura apontou que, em sua visão, programação em C++ orientado a objetos não é algo trivial e que, no momento, não teria à disposição mão de obra especializada. Luiz Sapucci destacou que a contribuição dele não se restringe a isso, mas em utilizar o que já está disponível no JEDI para ser explorado no CPTEC. Luiz Sapucci, perguntou para o Saulo Freitas, como ele orienta que seja feito um termo de cooperação em assimilação de dados com o pessoal da Universidade de Buenos Aires (<a href="https://www.uba.ar/internacionales/contenido.php?id=430&amp;lang=pt">UBA</a>) da Argentina. Saulo Freitas respondeu que a integração do MONAN como um desenvolvimento para todos os países da América do Sul, está sendo feito através do  representante da WMO na Região III, Daniel Vila (<a href="http://satelite.cptec.inpe.br/home/index.jsp?i=br">DISSM</a>).</p>
+<h5 id="discussao_4">Discussão</h5>
+<p>Durante as discussões sobre a Mesa Redonda 3, Clemente Tanajura comenta que o sistema de assimilação de dados oceânicos que utilizam, possui um sistema de pré-processamento destas observações e que eles utilizam dados de diversas fontes, dentre elas, as do <em>Copernicus Marine Service</em> (<a href="https://marine.copernicus.eu/">CMENS</a>). Comenta também que eles não tem condições de assimilar dados de radiâncias (por causa da complexidade do operador de observação) e que, nesse sentido, assimilam uma análise de Temperatura da Superfície do Mar (TSM), i.e., o campo de TSM pronto. Em relação à colaboração com o CPTEC, Clementa Tanajura indica sobre a necessidade de se ter estes dados organizados para que seja possível realizar a assimilação de dados oceânicos (cita diversas fontes - vide lista de ações). Sobre os dados do SIMCosta, Sergio Ferreira comenta que já houve uma iniciativa de se disseminar estes dados via <em>Global Telecommunication Systema</em> (<a href="https://public.wmo.int/en/programmes/global-telecommunication-system">GTS</a>), mas que, por algum motivo, não foi concretizado. </p>
+<p>Clemente Tanajura também pergunta se já existe alguma definição ou tendência sobre um método específico para a assimilação de dados que contemple todas as componentes do MONAN. João Gerd responde que a primeira implementação deverá ser feita para a assimilação de dados atmosféricos, ainda utilizando o 3DVar/GSI, em seguida passando para a assimilação com o 3DEnVar/GSI e depois, atualizar a assimilação atmosférica para utilizar o framework do JEDI, ainda utilizando o modelo atmosférico BAM. Em relação à superfície continental, João Gerd comenta que o JEDI ainda não possui implementações prontas para a assimilação nessa componente do sistema terrestre, e por esse motivo, o DAS-DIMNT deverá fornecer uma solução própria, a exemplo do trabalho que o João Gerd já desenvolveu em sua tese de doutorado. Em relação à superfície oceânica, a perspectiva é trabalhar com o Clemente Tanajura para colocar em prática os desenvolvimentos que ele já realizou com o RODAS, mas no CPTEC e, em seguida, migrar também para o framwork do JEDI que também já possui implementações para a assimilação de dados oceânicos baseado no <em>Modular Ocean Model 6</em> (<a href="https://github.com/mom-ocean/MOM6">MOM6</a>).</p>
+<h1 id="fechamento">Fechamento</h1>
+<p>Na sequência dos trabalhos, João Gerd como moderador, agradeceu todos os presentes, em especial os colegas externos das universidades e fechou os trabalhos do evento, encerrando suas atividades.</p>
+<h2 id="lista-de-acoes">Lista de Ações</h2>
+<ol>
+<li><strong>Eduardo Barbosa/DIPTC, DISSM e DAS-DIMNT:</strong> interagir com a equipe de pré-processamento da DIPTC para o desenvolvimento de uma interface de monitoramento da recepção dos dados de observações no centro;</li>
+<li><strong>DIMNT, DIPTC e DISSM:</strong> os responsáveis pelos dados atmosféricos, oceânicos e de superfície continental, devem manter comunicação mais próxima e frequente com a equipe de banco de dados e pré-processamento de forma que a equipe esteja sempre a par sobre novas fontes de dados a serem utilizadas na assimilação;</li>
+<li><strong>Eduardo Barbosa/DIPTC e DIMNT:</strong> institucionalizar os fluxos de dados que ainda não possuem acordos de colaboração;</li>
+<li><strong>DIPTC e DAS-DIMNT:</strong> efetivar a operacionalização da assimilação de dados atmosféricos (SMNA);</li>
+<li><strong>DIMNT, DIPTC e DISSM:</strong> absorver a mão de obra especializada de egressos dos cursos de pós-graduação para trabalhar no desenvolvimento do MONAN (evitar a fuga de cérebros);</li>
+<li><strong>João Gerd/DIMNT:</strong> levantar com os desenvolvedores do JEDI como eles estão tratando das deficiências do C++ na documentação do código, levantada pelo Luiz Flávio/DIMNT;</li>
+<li><strong>DAS-DIMNT:</strong> dar prosseguimento com as atividades de implementação do RODAS no CPTEC, junto com o Clemente Tanajura/UFBA;</li>
+<li><strong>Luiz Sapucci/DIMNT:</strong> interagir com o Daniel Vila/DISSM na cooperação com o pessoal da Argentina especialistas em Assimilação de dados;</li>
+<li><strong>DIPTC, Sergio Ferreira/DIMNT e Clemente Tanajura/UFBA:</strong> verificar com a equipe de pré-processamento do CPTEC e com o Clemente Tanajura/UFBA, formas de viabilizar a recepção de dados oceanográficos (e.g., cobertura de gelo, <a href="http://www.oceatlan.org/argo/">perfiladores Argo</a>, XBTs , <a href="https://www.marinha.mil.br/chm/dados-do-goos-brasil/pnboia">PNBOIA</a>, <a href="https://simcosta.furg.br/home">SIMCosta</a> - estes dois são dados regionais e que ainda não são assimilados por nenhum centro) para uso com a assimilação de dados oceânicos;</li>
+<li><strong>DAS- DIMNT:</strong> envolver mais pessoas nos desenvolvimentos relacionados com a previsão de tempo por conjunto global no centro;</li>
+<li><strong>DAS-DIMNT:</strong> discutir a demanda por previsões de tempo estendido e discutir sobre a viabilidade de se aproveitar as previsões na escala subsazonal para este fim.</li>
+</ol></div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/monanadmin/monan_ad" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:luiz.sapucci@inpe.br" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.7l167.6-182.9c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      
+    
+  </body>
+</html>
